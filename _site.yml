@@ -1,4 +1,4 @@
-name: "YOURNAME"                                # CHANGE HERE 
+name: "GSA-insurance"                                # CHANGE HERE 
 output_dir: "."
 navbar:
   title: "GSA-insurance"                             # CHANGE HERE 
