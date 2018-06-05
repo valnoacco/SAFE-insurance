@@ -7,22 +7,28 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "About"
+    - text: "Project"
       icon: fa-user 
-      href: about.html
-    - text: "CV"
-      icon: fa-file-pdf-o
+      href: Project.html
+    - text: "GSA"
+      icon: fa-wrech
       href: cv.html
-    - text: "Blog"
-      icon: fa-rss
-      href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
+    #- text: "Blog"
+     # icon: fa-rss
+     # href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES
+    - text: "News"
+      icon: fa-newspaper-o
+      href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES
+    - text: "Outputs"
+      icon: fa-file
+      href: Outputs.html  # CHANGE HERE OR DELETE ALL 3 LINES 
   right:
     - text: "Contact me"
       icon: fa-envelope-o
-      href: mailto:YOUREMAIL                    # CHANGE HERE 
+      href: Contact_me.html   # CHANGE HERE 
     - text: "GitHub"
       icon: fa-github
-      href: https://github.com/YOURGITHUB       # CHANGE HERE 
+      href: https://github.com/valnoacco       # CHANGE HERE 
 output:
   html_document:
     theme: cosmo
