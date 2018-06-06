@@ -1,0 +1,19 @@
+---
+title: "Material on GSA and the SAFE toolbox"
+---
+
+## Global Sensitivity Analysis (GSA) material
+
+ - <a href="GSA_SAFE_intro.pdf#" class="download" title="Download GSA and SAFE intro as PDF">Brief introductory presentation on GSA and the SAFE toolbox</a>		
+
+ - [A review of available methods and workflows for Sensitivity Analysis (open access paper)](https://www.sciencedirect.com/science/article/pii/S1364815216300287)
+ 
+ - [Example application to handle the issue of epistemic uncertainty due to climate change in landslide hazard modelling](https://www.nat-hazards-earth-syst-sci.net/17/225/2017/nhess-17-225-2017-discussion.html)
+ 
+ 
+## Sensitivity Analysis For Everybody (SAFE) toolbox
+ 
+ - [Website to download SAFE](https://www.safetoolbox.info/)
+
+- [Introductory paper to SAFE (open access paper)](https://www.sciencedirect.com/science/article/pii/S1364815215001188)
+

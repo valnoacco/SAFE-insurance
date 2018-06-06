@@ -8,11 +8,11 @@ navbar:
       icon: fa-home
       href: index.html
     - text: "Project"
-      icon: fa-user 
+      icon: fa-folder-open-o 
       href: Project.html
-    - text: "GSA"
-      icon: fa-wrech
-      href: cv.html
+    - text: "GSA-SAFE"
+      icon: fa-cogs
+      href: GSA-SAFE.html
     #- text: "Blog"
      # icon: fa-rss
      # href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES
@@ -20,7 +20,7 @@ navbar:
       icon: fa-newspaper-o
       href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES
     - text: "Outputs"
-      icon: fa-file
+      icon: fa-file-pdf-o
       href: Outputs.html  # CHANGE HERE OR DELETE ALL 3 LINES 
   right:
     - text: "Contact me"
