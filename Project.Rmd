@@ -16,4 +16,13 @@ An increased understanding and consideration of uncertainty in the insurance mod
 
 ## Project Parners
 - [XL Catlin](http://xlcatlin.com/)
-- [OASIS LMF](https://oasislmf.org/)
+- [OASIS Loss Modelling Framework](https://oasislmf.org/)
+
+
+<br> 
+<br> 
+<br> 
+1 [Munich Re (2018)](https://www.munichre.com/topics-online/en/2018/01/2017-year-in-figures)
+
+2 [EC (2009) Directive 2009/138/EC The taking-up and pursuit of the business of Insurance and Reinsurance (Solvency II)](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32009L0138)
+
