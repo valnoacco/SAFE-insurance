@@ -18,7 +18,7 @@ navbar:
      # href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES
     - text: "News"
       icon: fa-newspaper-o
-      href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES
+      href: news.html  # CHANGE HERE OR DELETE ALL 3 LINES
     - text: "Outputs"
       icon: fa-file-pdf-o
       href: Outputs.html  # CHANGE HERE OR DELETE ALL 3 LINES 
