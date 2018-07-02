@@ -3,9 +3,19 @@ title: "Valentina Noacco"
 ---
 
 ```{r pressure, echo=FALSE, fig.cap="", out.width = '25%', fig.align="center"}
-knitr::include_graphics("Noacco.jpg")
+knitr::include_graphics("foto_twitter.png")
 ```
 
 <center>
 [<i class="fa fa-envelope-o"></i>](mailto:valentina.noacco@bristol.ac.uk) \ \ \ \ [<i class="fa fa-institution"></i>](http://www.bristol.ac.uk/engineering/people/valentina-noacco/overview.html) \ \ \ [<i class="fa fa-graduation-cap"></i>](https://scholar.google.co.uk/citations?user=6RfiljEAAAAJ&hl=en) \ \ \ [<i class="fa fa-twitter"></i>](https://twitter.com/valentinanoacco)
 </center>
+
+<center>
+<a href="V_NOACCO_CV_02_07_2018#" class="download" title="CV">Curriculum Vitae</a>	
+
+<br>
+<br>
+
+Hosting research group:
+
+[Water and Environmental Engineering at the University of Bristol](http://www.bristol.ac.uk/engineering/research/water/)
