@@ -4,7 +4,7 @@ title: "Outputs"
 
 <br> 
 
-These are some of the outputs of the KE Fellowship:
+These are some of the outputs of my KE Fellowship:
 
 <br> 
 
@@ -16,15 +16,15 @@ These are some of the outputs of the KE Fellowship:
  
 <br> 
 
-## Research papers
+[comment]: <> (## Research papers)
 
 <br> 
    
-## Practitioners papers
+[comment]: <> (## Practitioners papers)
   
 <br> 
 
-## Reports
+[comment]: <> (## Reports)
 
 <br> 
 
