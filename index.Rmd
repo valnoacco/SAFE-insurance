@@ -5,7 +5,7 @@ title: "Transferring Sensitivity Analysis to the (Re)Insurance Sector"
 <br>
 
 ```{r pressure, echo=FALSE, fig.cap="", out.width = '80%', fig.align="center"}
-knitr::include_graphics("logo_website1.png")
+knitr::include_graphics("logo_website.png")
 ```
 
 ## Main objective of this fellowship
