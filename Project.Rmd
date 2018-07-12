@@ -2,6 +2,8 @@
 title: "Project Information"
 ---
 
+<br> 
+
 ## Background Information on the Project 
 
 Insurance companies provide insurance against a wide range of threats, such as natural hazards. Losses from natural disasters are increasing globally (in 2017 they were estimated to be USD 340 billion) [1]. To monitor risk and support investment decisions, insurance companies often use mathematical models to help calculate fair and robust risk premiums, and to ensure appropriate capital allocation, such that there is little risk of the company finding itself in financial trouble should deleterious events occur. While these models are essential tools to improve transparency of an insurer’s risk profile, their development is costly. Moreover, the insurance sector faces increasing regulation (European Solvency II) [2]; which requires them to test their capital models in a way that uncertainties are adequately captured, and plans are in place to assess the risks and how to mitigate them. Nonetheless, there is a lack of standardised regulatory guidelines for model validation. Building and testing mathematical models constitute a high cost for insurance companies, and it is a time intensive activity, which conflicts with the high day-to-day workload.
