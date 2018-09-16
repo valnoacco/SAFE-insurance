@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>Project Information</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,6 +22,9 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -240,61 +243,36 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Project Information</h1>
 
 </div>
 
 
-<div id="make-your-website-with-r-markdown-in-minutes" class="section level1">
-<h1>Make your website with R Markdown in minutes</h1>
-<p>This is a template (and tutorial) for creating your website with R Markdown in minutes.</p>
-<p>The official document from RStudio can be found <a href="http://rmarkdown.rstudio.com/rmarkdown_websites.html">here</a>.</p>
-<div id="procedure" class="section level2">
-<h2>Procedure</h2>
-<div id="prerequisites" class="section level3">
-<h3>Prerequisites</h3>
+<p><br></p>
+<div id="background-information-on-the-project" class="section level2">
+<h2>Background Information on the Project</h2>
+<p>Insurance companies provide insurance against a wide range of threats, such as natural hazards. Losses from natural disasters are increasing globally (in 2017 they were estimated to be USD 340 billion) [1]. To monitor risk and support investment decisions, insurance companies often use mathematical models to help calculate fair and robust risk premiums, and to ensure appropriate capital allocation, such that there is little risk of the company finding itself in financial trouble should deleterious events occur. While these models are essential tools to improve transparency of an insurer’s risk profile, their development is costly. Moreover, the insurance sector faces increasing regulation (European Solvency II) [2]; which requires them to test their capital models in a way that uncertainties are adequately captured, and plans are in place to assess the risks and how to mitigate them. Nonetheless, there is a lack of standardised regulatory guidelines for model validation. Building and testing mathematical models constitute a high cost for insurance companies, and it is a time intensive activity, which conflicts with the high day-to-day workload.</p>
+<p><br></p>
+</div>
+<div id="project-summary" class="section level2">
+<h2>Project Summary</h2>
+<p>The project aims to transfer methods and tools (i.e. Global Sensitivity Analysis (GSA) and the SAFE software toolbox) developed in academia and funded by NERC projects to the (re)insurance industry and to tailor them in such a way to facilitate their uptake in the insurance industry. This will equip them with tools to better capture the risks and the uncertainties embedded in their models, and with more structured approaches to validate their models. Therefore this will increase the robustness of their financial decisions. An increased understanding and consideration of uncertainty in the insurance modelling process can only promote a more continuous and aware use of model predictions to support financial decision-making. This will be driven by an adequate quantification of risks and vulnerability due to possible models flaws, therefore leading to better-informed and more robust business decisions. This in turn will strengthen the leading position of the UK in the area. Ultimately this will increase the transparency of an insurer’s risk profile, contribute to reduce and manage financial risk, reduce capital requirements and stabilise earning.</p>
+<p><br></p>
+</div>
+<div id="summary-of-project-activities" class="section level2">
+<h2>Summary of Project Activities</h2>
+<p>In the first stage of my fellowship project, I build on the existing collaboration with the (re)insurance company XL Catlin to review how numerical models, e.g. pricing models, are developed, validated and used within their company. I will develop pilot applications, tailored versions of the SAFE toolbox for (re)insurance (e.g. in Excel and R language) and detailed workflows which will form the basis to transfer expertise on the use of GSA methods in the (re)insurance sector.</p>
+<p>This material will be the building block for disseminating best practices across the wider (re)insurance industry. This will be achieved both by collaborating with the OASIS LMF consortium - including a tailored version of SAFE in their open access platform as the standard methodology for rigorous model validation - and by holding workshops for the wider (re)insurance industry.</p>
+<p><br></p>
+</div>
+<div id="project-parners" class="section level2">
+<h2>Project Parners</h2>
 <ul>
-<li><p>Make sure that you have the latest versions of R, RStudio and package rmarkdown. I had problems of encoding because of that.</p></li>
-<li><p>Make sure that you have enabled Git in RStudio. More information can be found <a href="https://privefl.github.io/advr38book/good-practices.html#git">there</a>.</p></li>
-<li><p>You need a GitHub account.</p></li>
+<li><a href="http://xlcatlin.com/">XL Catlin</a></li>
+<li><a href="https://oasislmf.org/">OASIS Loss Modelling Framework</a></li>
 </ul>
-</div>
-<div id="make-the-first-version-of-your-website" class="section level3">
-<h3>Make the first version of your website</h3>
-<ul>
-<li><p>Fork this repo (top-right) and rename it to be ‘YOURGITHUB.github.io’ (in Settings of your brand new repo).</p></li>
-<li><p>Get the link from cloning the repo. Use the green button “Clone” and make sure you use SSH, not HTTPS. Then, go to RStudio, create a New Project &gt; Version Control &gt; Git and copy this link. You have cloned your new repo as an R project.</p></li>
-<li><p>Build the website by running <code>rmarkdown::render_site(encoding = &quot;UTF-8&quot;)</code> or just <code>Ctrl/Cmd + Shift + B</code>.</p></li>
-<li><p>Commit and push everything from RStudio.</p></li>
-<li><p>Go see your new website at <a href="https://YOURGITHUB.github.io/" class="uri">https://YOURGITHUB.github.io/</a>.</p></li>
-</ul>
-</div>
-<div id="change-the-content-of-your-website" class="section level3">
-<h3>Change the content of your website</h3>
-<ul>
-<li>Modify <code>_site.yml</code>, <code>index.Rmd</code>, <code>about.Rmd</code>, <code>cv.Rmd</code> and <code>CV.pdf</code> with your own content.</li>
-<li><p>Build your website again. At any moment, you can preview your website locally, by rendering your site and viewing any of your local html file in your Web Browser.</p></li>
-<li><p>Commit and push everything from RStudio.</p></li>
-<li><p>Go see your new website with your own content at <a href="https://YOURGITHUB.github.io/" class="uri">https://YOURGITHUB.github.io/</a>.</p></li>
-</ul>
-</div>
-<div id="the-blog-part" class="section level3">
-<h3>The blog part</h3>
-<p>For now, the ‘Blog’ link is giving a 404 page.</p>
-<p>If you want to add a static blog to your webpage, go <a href="https://github.com/privefl/jekyll-now-r-template">there</a>.</p>
-</div>
-</div>
-<div id="two-examples" class="section level2">
-<h2>Two examples</h2>
-<p>You can see for example - <a href="https://privefl.github.io/">my own website</a>,</p>
-<ul>
-<li><a href="https://r-in-grenoble.github.io/">the website of the R user group in Grenoble</a>.</li>
-</ul>
-</div>
-<div id="conclusion" class="section level2">
-<h2>Conclusion</h2>
-<p>As a reminder, all credit goes to the geniuses at RStudio (thanks also to <a href="https://pages.github.com/">GitHub pages</a>). I just made some minor modifications and made a tuto about how to use all this together.</p>
-<p>If anything is false or not clear enough, feel free to contact me or open an issue. If it is an issue only related with R Markdown, you’ll find a better answer posting <a href="https://github.com/rstudio/rmarkdown">there</a>.</p>
-</div>
+<p><br> <br> <br> 1 <a href="https://www.munichre.com/topics-online/en/2018/01/2017-year-in-figures">Munich Re (2018)</a></p>
+<p>2 <a href="https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32009L0138">EC (2009) Directive 2009/138/EC The taking-up and pursuit of the business of Insurance and Reinsurance (Solvency II)</a></p>
 </div>
 
 

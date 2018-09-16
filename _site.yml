@@ -8,7 +8,7 @@ navbar:
       icon: fa-home
       href: index.html
     - text: "Project"
-      icon: fa-folder-open-o 
+      icon: fa-cubes 
       href: Project.html
     - text: "GSA-SAFE"
       icon: fa-cogs
