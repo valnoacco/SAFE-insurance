@@ -23,7 +23,7 @@ Methods and tools to adequately capture uncertainty in mathematical models are a
  - Identify needs of the insurance sector; what tools they already use.
  - Identify how they learn about new technologies; how they adopt them.
  - Identify barriers preventing the uptake of new technologies.
- - Identify “champions”, “sponsors” and “gatekeepers”.
+ - Identify “champions”, “sponsors” and “gatekeepers” [1].
  - Understand insurance model workflows; make them explicit.
  - Benefits of using GSA need to be communicated clearly.
  
@@ -31,10 +31,13 @@ Methods and tools to adequately capture uncertainty in mathematical models are a
  
 ## Dr Valentina Noacco
 
-Valentina received her MSc in Water and Environmental Management in 2012 and her PhD in Civil Engineering in 2017 (“Investigation of long-term drivers and controls on fluvial dissolved organic carbon and nitrate in the UK”) from the University of Bristol. In 2017 she held a 7-month research project at the University of Bristol on Applied Sensitivity Analysis.
+Valentina received her MSc in Water and Environmental Management in 2012 and her PhD in Civil Engineering in 2017 (“Investigation of long-term drivers and controls on fluvial dissolved organic carbon and nitrate in the UK”) from the University of Bristol. In 2017 she held a 7-month research project at the University of Bristol on Applied Sensitivity Analysis. Since November 2017 she helds a 3-year KE Fellowship.
 
 <br> 
 
 <img src="UoB_logo.jpg" alt="drawing" style="width:200px;"/> \ \ \ \ \ \ \ \ \   <img src="nerc_logo.png" alt="drawing" style="width:100px;"/> 
 
+<br>
+<br>
 
+1 [The Valley of Death as Context for Role Theory in Product Innovation](https://doi.org/10.1111/j.1540-5885.2010.00724.x) 

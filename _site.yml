@@ -1,7 +1,7 @@
-name: "GSA-insurance"                                # CHANGE HERE 
+name: "SAFE-insurance"                                # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: "GSA-insurance"                             # CHANGE HERE 
+  title: "SAFE-insurance"                             # CHANGE HERE 
   type: inverse
   left:
     - text: "Home"

@@ -6,7 +6,7 @@ title: "Material on GSA and the SAFE toolbox"
 
 ## Global Sensitivity Analysis (GSA) material
 
- - <a href="GSA_SAFE_intro.pdf#" class="download" title="Download GSA and SAFE intro as PDF">Brief introductory presentation on GSA and the SAFE toolbox</a>		
+ - <a href="GSA and SAFE introduction.pdf#" class="download" title="Download GSA and SAFE intro as PDF">Brief introductory presentation on GSA and the SAFE toolbox</a>		
 
  - [A review of available methods and workflows for Sensitivity Analysis (open access paper)](https://www.sciencedirect.com/science/article/pii/S1364815216300287)
 
