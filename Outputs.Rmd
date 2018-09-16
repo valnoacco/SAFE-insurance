@@ -21,7 +21,7 @@ These are some of the outputs of my KE Fellowship:
  - <a href="workflow_GSA_actuarial_example.pdf#" class="download" title="Download pdf Rmarkdown"> Workflow to guide in the application and interpretation of GSA for pricing models in R or Excel (Please download safer from here: https://www.safetoolbox.info/)
  
  
- - <a href="Results_anonym_500samples.xlsx#" class="download" title="Download excel data"> Mock data used
+ - <a href="Results_anonym_500samples.csv#" class="download" title="Download excel data"> Mock data used
  
 [comment]: <> (## Research papers)
 
