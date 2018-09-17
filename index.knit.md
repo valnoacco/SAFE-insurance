@@ -4,9 +4,7 @@ title: "Transferring Sensitivity Analysis to the (Re)Insurance Sector"
 
 <br>
 
-```{r pressure, echo=FALSE, fig.cap="", out.width = '80%', fig.align="center"}
-knitr::include_graphics("logo_website.png")
-```
+<img src="logo_website.png" width="80%" style="display: block; margin: auto;" />
 
 ## Main objective of this fellowship
 
