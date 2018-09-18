@@ -31,5 +31,5 @@ navbar:
       href: https://github.com/valnoacco       # CHANGE HERE 
 output:
   html_document:
-    theme: cosmo
+    theme: spacelab
     highlight: textmate
