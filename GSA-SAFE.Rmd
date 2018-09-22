@@ -10,7 +10,7 @@ title: "Material on GSA and the SAFE toolbox"
 
  - [A review of available methods and workflow for Sensitivity Analysis (open access paper)](https://www.sciencedirect.com/science/article/pii/S1364815216300287)
 
- - <a href="GSA_Case_Studies.pdf#" class="download" title="Download examples of GSA-SAFE as PDF">-Brief description of a range of GSA/SAFE applications</a>	
+ - <a href="GSA_Case_Studies.pdf#" class="download" title="Download examples of GSA-SAFE as PDF">Brief description of a range of GSA/SAFE applications</a>	
  
  - [Paper on the issue of handling epistemic uncertainty due to climate change in landslide hazard modelling](https://www.nat-hazards-earth-syst-sci.net/17/225/2017/nhess-17-225-2017-discussion.html)
  
