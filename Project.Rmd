@@ -24,9 +24,19 @@ This material will be the building block for disseminating best practices across
 
 <br> 
 
-## Project Parners
+## Project Teams
+
+### Academic collaborators:
+- [Francesca Pianosi](http://www.bris.ac.uk/engineering/people/francesca-pianosi/index.html)
+- [Thorsten Wagener](http://www.bristol.ac.uk/engineering/people/thorsten-wagener/)
+
+### Core industry partners:
 - [AXA XL](https://axaxl.com/)
 - [OASIS Loss Modelling Framework](https://oasislmf.org/)
+
+### Case study partners:
+- [JBA Risk Management](https://www.jbarisk.com/)
+- [ARA Applied Research Associates](https://www.ara.com/)
 
 
 
