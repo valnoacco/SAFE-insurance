@@ -11,6 +11,8 @@ output: html_document
 
 - 11th – 14th June 2018 I'm attending [Models2Decisions](http://blogs.exeter.ac.uk/models2decisions/events/m2d-2018-annual-conference/) conference on decision making under uncertainty and presenting a poster on: "Overcoming the “valley of death” – Transferring tools and expertise on sensitivity analysis to the (re)insurance sector"
 
+- 13th - 14th September 2018 I'm attending the [Oasis Conference - The good, the bad and the ugly](https://oasislmf.org/events/oasis-conference-good-bad-and-ugly) on current state, challenges and future directions of catastrophe modelling and the (re)insurance industry
+
 <br>
 
 
