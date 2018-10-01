@@ -21,3 +21,8 @@ output: html_document
 - [OASIS LMF news by CatInsight Feb 2018](https://oasislmf.org/news/february-article)
 
 - [OASIS LMF what to expect for 2018](https://oasislmf.org/application/files/3815/1991/6580/OasisNewsletter_FEBRUARY_2018.pdf)
+
+<br>
+<br>
+
+<a class="twitter-timeline" data-width="400" data-height="400" href="https://twitter.com/ValentinaNoacco?ref_src=twsrc%5Etfw">Tweets by ValentinaNoacco</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

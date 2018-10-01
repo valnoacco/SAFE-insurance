@@ -38,6 +38,9 @@ This material will be the building block for disseminating best practices across
 - [JBA Risk Management](https://www.jbarisk.com/)
 - [ARA Applied Research Associates](https://www.ara.com/)
 
+<br>
+
+<img src="axa_xl.png" alt="drawing" style="width:150px;"/> \ \ \ \ \ \ \ \ \   <img src="OASIS.png" alt="drawing" style="width:170px;"/>  \ \ \ \ \ \ \ \ \   <img src="jba.png" alt="drawing" style="width:90px;"/>  \ \ \ \ \ \ \ \ \   <img src="ARA.jpg" alt="drawing" style="width:120px;"/> 
 
 
 <br> 
