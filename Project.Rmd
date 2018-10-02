@@ -40,13 +40,13 @@ This material will be the building block for disseminating best practices across
 
 <br>
 
-<img src="axa_xl.png" alt="drawing" style="width:150px;"/> \ \ \ \ \ \ \ \ \   <img src="OASIS.png" alt="drawing" style="width:170px;"/>  \ \ \ \ \ \ \ \ \   <img src="jba.png" alt="drawing" style="width:90px;"/>  \ \ \ \ \ \ \ \ \   <img src="ARA.jpg" alt="drawing" style="width:120px;"/> 
+<img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:90px;"/> \ \ \ \ \ \ \ \ \   <img src="OASIS_logo.png" alt="drawing" style="width:170px;"/>  \ \ \ \ \ \ \ \ \   <img src="jba_logo.png" alt="drawing" style="width:90px;"/>  \ \ \ \ \ \ \ \ \   <img src="ARA_logo.jpg" alt="drawing" style="width:140px;"/> 
 
 
 <br> 
 <br> 
 <br> 
-1 [Munich Re (2018)](https://www.munichre.com/topics-online/en/2018/01/2017-year-in-figures)
+[1] - [Munich Re (2018)](https://www.munichre.com/topics-online/en/2018/01/2017-year-in-figures)
 
-2 [EC (2009) Directive 2009/138/EC The taking-up and pursuit of the business of Insurance and Reinsurance (Solvency II)](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32009L0138)
+[2] - [EC (2009) Directive 2009/138/EC The taking-up and pursuit of the business of Insurance and Reinsurance (Solvency II)](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32009L0138)
 
