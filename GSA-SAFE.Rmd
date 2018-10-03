@@ -15,7 +15,7 @@ title: "Material on GSA and the SAFE toolbox"
  - [Paper on the issue of handling epistemic uncertainty due to climate change in landslide hazard modelling](https://www.nat-hazards-earth-syst-sci.net/17/225/2017/nhess-17-225-2017-discussion.html)
  
  
- - [Paper on a GSA-SAFE application to a flood inundation model](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015WR018198)
+ - [Paper on a GSA/SAFE application to a flood inundation model](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015WR018198)
  
 <br>  
  
