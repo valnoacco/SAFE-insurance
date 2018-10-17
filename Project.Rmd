@@ -30,17 +30,15 @@ This material will be the building block for disseminating best practices across
 - [Francesca Pianosi](http://www.bris.ac.uk/engineering/people/francesca-pianosi/index.html)
 - [Thorsten Wagener](http://www.bristol.ac.uk/engineering/people/thorsten-wagener/)
 
-### Core industry partners:
+### Industry partners:
 - [AXA XL](https://axaxl.com/)
 - [OASIS Loss Modelling Framework](https://oasislmf.org/)
 
-### Case study partners:
-- [JBA Risk Management](https://www.jbarisk.com/)
-- [ARA Applied Research Associates](https://www.ara.com/)
+
 
 <br>
 
-<img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:90px;"/> \ \ \ \ \ \ \ \ \   <img src="OASIS_logo.png" alt="drawing" style="width:170px;"/>  \ \ \ \ \ \ \ \ \   <img src="jba_logo.png" alt="drawing" style="width:90px;"/>  \ \ \ \ \ \ \ \ \   <img src="ARA_logo.jpg" alt="drawing" style="width:140px;"/> 
+<img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:90px;"/> \ \ \ \ \ \ \ \ \   <img src="OASIS_logo.png" alt="drawing" style="width:170px;"/>  \ \ \ \ \ \ \ \ \  
 
 
 <br> 
