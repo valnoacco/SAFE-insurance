@@ -20,9 +20,9 @@ The main aim of the project is to transfer state-of-the-art Global Sensitivity A
 Methods and tools to adequately capture uncertainty in mathematical models are already available in academia, but tailored tools, workflows and case studies (close to the area of expertise of model users) are needed to demonstrate GSA benefits and to accelerate its uptake in industry. To overcome the so-called “valley of death” [1] (gap between research development and uptake by industry) it is needed to:
 
  - Create common language between academia and industry.
- - Identify needs of the insurance sector; what tools they already use.
- - Identify how they learn about new technologies; how they adopt them.
- - Identify barriers preventing the uptake of new technologies.
+ - Identify needs of the insurance sector; what methods and tools they already use.
+ - Identify how they learn about new research and methods; how they adopt them.
+ - Identify barriers preventing the uptake of new methods and tools.
  - Identify “champions”, “sponsors” and “gatekeepers” [1].
  - Understand insurance model workflows; make them explicit.
  - Benefits of using GSA need to be communicated clearly.
