@@ -34,11 +34,12 @@ This material will be the building block for disseminating best practices across
 - [AXA XL](https://axaxl.com/)
 - [OASIS Loss Modelling Framework](https://oasislmf.org/)
 
-
+### Case study partners:
+- [JBA Risk Management](https://www.jbarisk.com/)
 
 <br>
 
-<img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:90px;"/> \ \ \ \ \ \ \ \ \   <img src="OASIS_logo.png" alt="drawing" style="width:170px;"/>  \ \ \ \ \ \ \ \ \  
+<img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/> \ \ \ \ \ \ \ \ \   <img src="OASIS_logo.png" alt="drawing" style="width:140px;"/>  \ \ \ \ \ \ \ \ \  <img src="JBA_logo.png" alt="drawing" style="width:190px;"/>
 
 
 <br> 
