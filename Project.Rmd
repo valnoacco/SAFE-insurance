@@ -39,7 +39,7 @@ This material will be the building block for disseminating best practices across
 
 <br>
 
-<img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/> \ \ \ \ \ \ \ \ \   <img src="OASIS_logo.png" alt="drawing" style="width:140px;"/>  \ \ \ \ \ \ \ \ \  <img src="JBA_logo.png" alt="drawing" style="width:190px;"/>
+<img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/> \ \ \ \ \ \ \ \ \   <img src="oasis_logo.png" alt="drawing" style="width:240px;"/>  \ \ \ \ \ \ \ \ \  <img src="JBA_logo.png" alt="drawing" style="width:180px;"/>
 
 
 <br> 
