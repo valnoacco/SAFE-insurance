@@ -11,7 +11,7 @@ knitr::include_graphics("foto_twitter.png")
 </center>
 
 <center>
-<a href="V_NOACCO_CV.pdf#" class="download" title="CV">Curriculum Vitae</a>	
+<a href="CV_NOACCO_V.pdf#" class="download" title="CV">Curriculum Vitae</a>	
 
 <br>
 <br>
