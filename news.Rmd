@@ -7,11 +7,16 @@ output: html_document
 
 ## Events I am attending:
 
-<br> 
 
-- 11th – 14th June 2018 I'm attending [Models2Decisions](http://blogs.exeter.ac.uk/models2decisions/events/m2d-2018-annual-conference/) conference on decision making under uncertainty and presenting a poster on: "Overcoming the “valley of death” – Transferring tools and expertise on sensitivity analysis to the (re)insurance sector"
+- 18-19th June 2019 I'm attending [The good, the bad and the ugly - Oasis Confernece 2019](https://oasislmf.org/events/oasis-conference-good-bad-and-ugly)
 
-- 13th - 14th September 2018 I'm attending the [Oasis Conference - The good, the bad and the ugly](https://oasislmf.org/events/oasis-conference-good-bad-and-ugly) on current state, challenges and future directions of catastrophe modelling and the (re)insurance industry
+- 7-12th April 2019 I'm attending [EGU General Assembly 2019](https://www.egu2019.eu/) and presenting a poster on: **Transferring expertise on Global Sensitivity Analysis to (re)insurance practitioners using workflows** on Tue 9th Apr 8.30-10.15am, Hall X3
+
+- 13-14th March 2019 I'm attending [CAT Risk Management & Modelling Europe 2019](http://catrisklondon.aventedge.com/)
+
+- 13-14th September 2018 I'm attending the [Oasis Conference - The good, the bad and the ugly](https://oasislmf.org/events/oasis-conference-good-bad-and-ugly) on current state, challenges and future directions of catastrophe modelling and the (re)insurance industry
+
+- 11-14th June 2018 I'm attending [Models2Decisions](http://blogs.exeter.ac.uk/models2decisions/events/m2d-2018-annual-conference/) conference on decision making under uncertainty and presenting a poster on: "Overcoming the “valley of death” – Transferring tools and expertise on sensitivity analysis to the (re)insurance sector"
 
 <br>
 
@@ -21,6 +26,12 @@ output: html_document
 - [OASIS LMF news by CatInsight Feb 2018](https://oasislmf.org/news/february-article)
 
 - [OASIS LMF what to expect for 2018](https://oasislmf.org/application/files/3815/1991/6580/OasisNewsletter_FEBRUARY_2018.pdf)
+
+<br>
+
+## Blogs:
+- Blog for the Cabot Institute on the [Launch of the Cambridge Global Risk Index 2019](http://cabot-institute.blogspot.com/2019/01/what-global-threats-should-we-be-most.html) - **What global threats should we be most worried about in 2019?**
+
 
 <br>
 <br>
