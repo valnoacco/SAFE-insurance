@@ -26,9 +26,9 @@ navbar:
     - text: "Contact me"
       icon: fa-envelope-o
       href: Contact_me.html   # CHANGE HERE 
-    - text: "GitHub"
-      icon: fa-github
-      href: https://github.com/valnoacco       # CHANGE HERE 
+    #- text: "GitHub"
+    #  icon: fa-github
+     # href: https://github.com/valnoacco       # CHANGE HERE 
 output:
   html_document:
     theme: spacelab
