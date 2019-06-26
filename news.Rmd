@@ -7,10 +7,10 @@ output: html_document
 
 ## Events I am attending:
 
-- 25th June 2019 I'm presenting at the [Bristol Actuarial Society](http://www.bristolactuaries.org/) on <a href="VNoacco_GSA_pricing_BAS.pdf#" class="download" title="GSA_pricing">How can sensitivity analysis help the insurance industry make more robust decisions based on pricing models?</a>
+- 25th June 2019 I'm presenting at the [Bristol Actuarial Society](http://www.bristolactuaries.org/)
 
 
-- 18-19th June 2019 I'm co-delivering the workshop: "<a href="Noacco_OASIS_2019.pdf#" class="download" title="GSA_JBA_flood">How SAFE is your model? Sensitivity Analysis in flood catastrophe modelling</a>" in collaboration with JBA Risk Management and HindlesWorld Risk Solutions at the [Oasis Confernece 2019 - The good, the bad and the ugly](https://oasislmf.org/events/oasis-conference-good-bad-and-ugly)
+- 18-19th June 2019 I'm co-delivering the workshop "How SAFE is your model? Sensitivity Analysis in flood catastrophe modelling" in collaboration with JBA Risk Management and HindlesWorld Risk Solutions at the [Oasis Confernece 2019 - The good, the bad and the ugly](https://oasislmf.org/events/oasis-conference-good-bad-and-ugly)
 
 
 - 7-12th April 2019 I'm attending [EGU General Assembly 2019](https://www.egu2019.eu/) and presenting a poster on: **Transferring expertise on Global Sensitivity Analysis to (re)insurance practitioners using workflows** on Tue 9th Apr 8.30-10.15am, Hall X3
