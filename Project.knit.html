@@ -11,11 +11,11 @@
 
 
 
-<title>About me</title>
+<title>Project Information</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -69,9 +69,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -90,8 +88,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -99,34 +103,70 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 52px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 57px;
+  margin-top: -57px;
 }
-
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 57px;
+  margin-top: -57px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 57px;
+  margin-top: -57px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 57px;
+  margin-top: -57px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 57px;
+  margin-top: -57px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -148,19 +188,85 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -173,7 +279,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">GSA-insurance</a>
+      <a class="navbar-brand" href="index.html">SAFE-insurance</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -185,29 +291,29 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="about.html">
-    <span class="fa fa-user"></span>
+  <a href="Project.html">
+    <span class="fa fa-cubes"></span>
      
     Project
   </a>
 </li>
 <li>
-  <a href="cv.html">
-    <span class="fa fa-file-pdf-o"></span>
+  <a href="GSA-SAFE.html">
+    <span class="fa fa-cogs"></span>
      
-    GSA
+    GSA-SAFE
   </a>
 </li>
 <li>
-  <a href="https://YOURGITHUB.github.io/blog/">
-    <span class="fa fa-rss"></span>
+  <a href="news.html">
+    <span class="fa fa-newspaper-o"></span>
      
-    Blog
+    News
   </a>
 </li>
 <li>
   <a href="Outputs.html">
-    <span class="fa fa-gear"></span>
+    <span class="fa fa-file-pdf-o"></span>
      
     Outputs
   </a>
@@ -215,17 +321,10 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:YOUREMAIL">
+  <a href="Contact_me.html">
     <span class="fa fa-envelope-o"></span>
      
     Contact me
-  </a>
-</li>
-<li>
-  <a href="https://github.com/YOURGITHUB">
-    <span class="fa fa-github"></span>
-     
-    GitHub
   </a>
 </li>
       </ul>
@@ -237,14 +336,54 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About me</h1>
+<h1 class="title toc-ignore">Project Information</h1>
 
 </div>
 
 
-<div id="header" class="section level2">
-<h2>Header</h2>
-<p>Say more about you here.</p>
+<p><br></p>
+<div id="background-information-on-the-project" class="section level2">
+<h2>Background Information on the Project</h2>
+<p>Insurance companies provide insurance against a wide range of threats, such as natural hazards. Losses from natural disasters are increasing globally (in 2017 they were estimated to be USD 340 billion) [1]. To monitor risk and support investment decisions, insurance companies often use numerical models to predict losses from various threats (natural or man-made), to help calculate fair and robust risk premiums, and to ensure appropriate capital allocation, such that there is little risk of the company finding itself in financial trouble should deleterious events occur. While these models are essential tools to create your own view of risk, their licenses, training and validation is costly. Moreover, in Europe the insurance sector is required by the Solvency II Directive [2] to test the models used in a way that uncertainties are adequately captured, to assess the risks faced and to have plans in place to mitigate them. Nonetheless, there is a lack of standardised regulatory guidelines for model validation. The use of Sensitivity Analysis to test numerical models in a structured way will facilitate the (re)insurance sector to meet regulatory requirements and will help to form a view of risk which takes into account the uncertainties and assumptions in the models.</p>
+<p><br></p>
+</div>
+<div id="project-summary" class="section level2">
+<h2>Project Summary</h2>
+<p>The project aims to transfer methods (i.e. Global Sensitivity Analysis (GSA)) and tools (i.e. the SAFE (Sensitivity Analysis For Everybody) software toolbox developed by Bristol University and funded by NERC) to the (re)insurance industry, and to tailor them in such a way to facilitate their uptake in the (re)insurance industry. These tools will improve the ability of the (re)insurance sector to understand the impact of models’ underlying assumptions, to capture the risks and uncertainties embedded in their models, and provide more structured approaches to validate their models. An increased understanding and consideration of uncertainty in the insurance modelling process will promote a more continuous and aware use of model predictions to support financial decision-making. In turn, an adequate quantification of risks and vulnerability due to possible models flaws will lead to better-informed and more robust business decisions. Ultimately this will increase the transparency of an insurer’s risk profile, contribute to reduce and manage financial risk, reduce capital requirements and stabilise earning. Therefore this will strengthen the leading position of the UK in the area.</p>
+<p><br></p>
+</div>
+<div id="summary-of-project-activities" class="section level2">
+<h2>Summary of Project Activities</h2>
+<p>In the first stage of my fellowship project, I build on the existing collaboration with the (re)insurance company AXA XL (former XL Catlin) to review how numerical models are developed, validated and used within their company. I will develop case study applications, detailed workflows and a tailored version of the SAFE toolbox for (re)insurance (in the R language) which will form the basis to transfer expertise on the use of GSA methods in the (re)insurance sector.</p>
+<p>This material will be the building block for disseminating best practices across the wider (re)insurance industry. This will be achieved both by collaborating with the OASIS LMF consortium - including a tailored version of SAFE in their open access platform as the standard methodology for rigorous model validation - and by holding workshops for the wider (re)insurance industry.</p>
+<p><br></p>
+</div>
+<div id="project-teams" class="section level2">
+<h2>Project Teams</h2>
+<div id="academic-collaborators" class="section level3">
+<h3>Academic collaborators:</h3>
+<ul>
+<li><a href="http://www.bris.ac.uk/engineering/people/francesca-pianosi/index.html">Francesca Pianosi</a></li>
+<li><a href="http://www.bristol.ac.uk/engineering/people/thorsten-wagener/">Thorsten Wagener</a></li>
+</ul>
+</div>
+<div id="industry-partners" class="section level3">
+<h3>Industry partners:</h3>
+<ul>
+<li><a href="https://axaxl.com/">AXA XL</a></li>
+<li><a href="https://oasislmf.org/">OASIS Loss Modelling Framework</a></li>
+</ul>
+</div>
+<div id="case-study-partners" class="section level3">
+<h3>Case study partners:</h3>
+<ul>
+<li><a href="https://www.jbarisk.com/">JBA Risk Management</a></li>
+</ul>
+<p><br></p>
+<p><img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/>           <img src="oasis_logo.png" alt="drawing" style="width:240px;"/>           <img src="jba_logo.png" alt="drawing" style="width:180px;"/></p>
+<p><br> <br> <br> [1] - <a href="https://www.munichre.com/topics-online/en/2018/01/2017-year-in-figures">Munich Re (2018)</a></p>
+<p>[2] - <a href="https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32009L0138">EC (2009) Directive 2009/138/EC The taking-up and pursuit of the business of Insurance and Reinsurance (Solvency II)</a></p>
+</div>
 </div>
 
 

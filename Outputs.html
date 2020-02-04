@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,7 +85,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -234,6 +233,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -245,18 +245,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -360,13 +348,19 @@ $(document).ready(function () {
 <div id="training-material" class="section level2">
 <h2>Training material</h2>
 <ul>
-<li><p><a href="workflow_GSA_actuarial_example.pdf#" class="download" title="Download pdf Rmarkdown"> Workflow </a> to guide in the application and interpretation of GSA to pricing models in R or Excel (This workflow is published with Rmarkdown, you can download the R version of SAFE used from here: <a href="https://www.safetoolbox.info/register-for-download/" class="uri">https://www.safetoolbox.info/register-for-download/</a>)</p></li>
+<li><p><a href="workflow_GSA_actuarial_example.pdf#" class="download" title="Download pdf Rmarkdown"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a pricing model in R or Excel, and interpretation of the results (This workflow was produced with Rmarkdown showing how to use the SAFE R version)</p></li>
 <li><p><a href="Results_anonym_500samples.csv#" class="download" title="Download excel data"> Mock data used</p></li>
 </ul>
 <p><br></p>
 <ul>
-<li><a href="workflow_GSA_GlobalFloodModel.html#" class="download" title="Download html GSA JBA"> Workflow </a> to guide in the application and interpretation of GSA to a CAT model (JBA’s Global Flood Model) (This workflow is produced with RMarkdown, you can download the SAFE toolbox (in R, Python or Matlab) from here: <a href="https://www.safetoolbox.info/register-for-download/" class="uri">https://www.safetoolbox.info/register-for-download/</a>)</li>
+<li><a href="workflow_GSA_GlobalFloodModel.html#" class="download" title="Download html GSA JBA"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a Catastrophe model (JBA’s Global Flood Model) (This workflow was produced with Rmarkdown showing how to use the SAFE R version)</li>
 </ul>
+<p><br></p>
+<ul>
+<li><a href="GSA_SAFE_PiWind_nocode_simplified_for_website.html#" class="download" title="Download html GSA PiWind"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a Catastrophe model (<a href="https://github.com/OasisLMF/OasisPiWind">OASIS PiWind toy model</a>) and interpretation of the results (This workflow was produced with Jupyter Notebook showing how to use the SAFE python version)</li>
+</ul>
+<p><br></p>
+<p>You can download the SAFE toolbox in R, Python or Matlab from here: <a href="https://www.safetoolbox.info/register-for-download/" class="uri">https://www.safetoolbox.info/register-for-download/</a>)</p>
 </div>
 
 
@@ -386,6 +380,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

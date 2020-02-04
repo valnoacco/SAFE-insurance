@@ -7,17 +7,23 @@ output: html_document
 
 ## Events I am attending:
 
-- 25th June 2019 I'm presenting at the [Bristol Actuarial Society](http://www.bristolactuaries.org/)
+- 10-11th June 2020 I'm attending the [Oasis LMF Conference - The good, the bad and the ugly](https://oasislmf.org/events/oasis-conference-2020-good-bad-and-ugly)
 
+- 3rd-8th May 2020 I'm attending [EGU General Assembly 2020](https://egu2020.eu/) and giving a presentation on **Improving the robustness of flood catastrophe models in insurance through academia-industry collaboration** and on **Interactive Jupyter Notebooks for the visual analysis of critical choices in Global Sensitivity Analysis**
 
-- 18-19th June 2019 I'm co-delivering the workshop "How SAFE is your model? Sensitivity Analysis in flood catastrophe modelling" in collaboration with JBA Risk Management and HindlesWorld Risk Solutions at the [Oasis Confernece 2019 - The good, the bad and the ugly](https://oasislmf.org/events/oasis-conference-good-bad-and-ugly)
+- 24-27th March 2020 I'm attending [SIAM Conference on Uncertainty Quantification](https://www.siam.org/conferences/cm/conference/uq20) and giving a talk on [From uncertainty quantification to uncertainty attribution: what we can learn through global sensitivity analysis and how it can help in the calibration and evaluation of hydrological models](https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=all&ses=1713#anker_session_1713)
 
+- 10-12th March 2020 I'm attending [CAT Risk Management & Modelling Europe 2020](http://catrisklondon.aventedge.com/)
+
+- 25th June 2019 I'm giving a talk at the [Bristol Actuarial Society](http://www.bristolactuaries.org/)
+
+- 18-19th June 2019 I'm co-delivering the workshop "How SAFE is your model? Sensitivity Analysis in flood catastrophe modelling" in collaboration with JBA Risk Management and HindlesWorld Risk Solutions at the [Oasis Conference 2019 - The good, the bad and the ugly](https://oasislmf.org/application/files/6415/8074/3163/Agenda2019_OasisConference.pdf)
 
 - 7-12th April 2019 I'm attending [EGU General Assembly 2019](https://www.egu2019.eu/) and presenting a poster on: **Transferring expertise on Global Sensitivity Analysis to (re)insurance practitioners using workflows** on Tue 9th Apr 8.30-10.15am, Hall X3
 
-- 13-14th March 2019 I'm attending [CAT Risk Management & Modelling Europe 2019](http://catrisklondon.aventedge.com/)
+- 13-14th March 2019 I'm attending CAT Risk Management & Modelling Europe 2019
 
-- 13-14th September 2018 I'm attending the [Oasis Conference - The good, the bad and the ugly](https://oasislmf.org/events/oasis-conference-good-bad-and-ugly) on current state, challenges and future directions of catastrophe modelling and the (re)insurance industry
+- 13-14th September 2018 I'm attending the [Oasis LMF](https://oasislmf.org) Conference - The good, the bad and the ugly on current state, challenges and future directions of catastrophe modelling and the (re)insurance industry
 
 - 11-14th June 2018 I'm attending [Models2Decisions](http://blogs.exeter.ac.uk/models2decisions/events/m2d-2018-annual-conference/) conference on decision making under uncertainty and presenting a poster on: "Overcoming the “valley of death” – Transferring tools and expertise on sensitivity analysis to the (re)insurance sector"
 

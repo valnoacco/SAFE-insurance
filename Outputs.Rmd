@@ -24,15 +24,22 @@ These are some of the outputs of my KE Fellowship:
 
 ## Training material
 
- - <a href="workflow_GSA_actuarial_example.pdf#" class="download" title="Download pdf Rmarkdown"> Workflow </a> to guide in the application and interpretation of GSA to pricing models in R or Excel (This workflow is published with Rmarkdown, you can download the R version of SAFE used from here: https://www.safetoolbox.info/register-for-download/)
+ - <a href="workflow_GSA_actuarial_example.pdf#" class="download" title="Download pdf Rmarkdown"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a pricing model in R or Excel, and interpretation of the results (This workflow was produced with Rmarkdown showing how to use the SAFE R version)
  
  - <a href="Results_anonym_500samples.csv#" class="download" title="Download excel data"> Mock data used
  
  <br>
 
- - <a href="workflow_GSA_GlobalFloodModel.html#" class="download" title="Download html GSA JBA"> Workflow </a> to guide in the application and interpretation of GSA to a CAT model (JBA's Global Flood Model) (This workflow is produced with RMarkdown, you can download the SAFE toolbox (in R, Python or Matlab) from here: https://www.safetoolbox.info/register-for-download/) 
-
+ - <a href="workflow_GSA_GlobalFloodModel.html#" class="download" title="Download html GSA JBA"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a Catastrophe model (JBA's Global Flood Model) (This workflow was produced with Rmarkdown showing how to use the SAFE R version)
  
+<br>
+
+  - <a href="GSA_SAFE_PiWind_nocode_simplified_for_website.html#" class="download" title="Download html GSA PiWind"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a Catastrophe model ([OASIS PiWind toy model](https://github.com/OasisLMF/OasisPiWind)) and interpretation of the results (This workflow was produced with Jupyter Notebook showing how to use the SAFE python version)
+
+<br>
+
+You can download the SAFE toolbox in R, Python or Matlab from here: https://www.safetoolbox.info/register-for-download/)
+
 [comment]: <> (## Research papers)
 
 
