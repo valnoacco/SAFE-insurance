@@ -30,11 +30,11 @@ These are some of the outputs of my KE Fellowship:
  
  <br>
 
- - <a href="workflow_GSA_GlobalFloodModel.html#" class="download" title="Download html GSA JBA"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a Catastrophe model (JBA's Global Flood Model) (This workflow was produced with Rmarkdown showing how to use the SAFE R version)
+ - <a href="workflow_GSA_CAT_Model_JBA.html#" class="download" title="Download html GSA JBA"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a Catastrophe model (JBA's Global Flood Model) (This workflow was produced with Rmarkdown showing how to use the SAFE R version)
  
 <br>
 
-  - <a href="GSA_SAFE_PiWind_nocode_simplified_for_website.html#" class="download" title="Download html GSA PiWind"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a Catastrophe model ([OASIS PiWind toy model](https://github.com/OasisLMF/OasisPiWind)) and interpretation of the results (This workflow was produced with Jupyter Notebook showing how to use the SAFE python version)
+  - <a href="workflow_GSA_CAT_Model_JBA.htlm#" class="download" title="Download html GSA PiWind"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a Catastrophe model ([OASIS PiWind toy model](https://github.com/OasisLMF/OasisPiWind)) and interpretation of the results (This workflow was produced with Jupyter Notebook showing how to use the SAFE python version)
 
 <br>
 
