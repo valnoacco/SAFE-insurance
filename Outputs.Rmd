@@ -34,7 +34,7 @@ These are some of the outputs of my KE Fellowship:
  
 <br>
 
-  - <a href="workflow_GSA_CAT_Model_JBA.htlm#" class="download" title="Download html GSA PiWind"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a Catastrophe model ([OASIS PiWind toy model](https://github.com/OasisLMF/OasisPiWind)) and interpretation of the results (This workflow was produced with Jupyter Notebook showing how to use the SAFE python version)
+  - <a href="GSA_SAFE_OASIS_PiWind.html#" class="download" title="Download html GSA PiWind"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a Catastrophe model ([OASIS PiWind toy model](https://github.com/OasisLMF/OasisPiWind)) and interpretation of the results (This workflow was produced with Jupyter Notebook showing how to use the SAFE python version)
 
 <br>
 
