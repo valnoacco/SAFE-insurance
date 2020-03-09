@@ -42,6 +42,11 @@ This material will be the building block for disseminating best practices across
 <img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/> \ \ \ \ \ \ \ \ \   <img src="oasis_logo.png" alt="drawing" style="width:240px;"/>  \ \ \ \ \ \ \ \ \  <img src="JBA_logo.png" alt="drawing" style="width:180px;"/>
 
 
+
+```{r quote, echo=FALSE, fig.cap="", out.width = '40%', fig.align="right"}
+knitr::include_graphics("JBA_quote.png")
+```
+
 <br> 
 <br> 
 <br> 
