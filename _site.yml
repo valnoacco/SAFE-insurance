@@ -22,6 +22,9 @@ navbar:
     - text: "Outputs"
       icon: fa-file-pdf-o
       href: Outputs.html  # CHANGE HERE OR DELETE ALL 3 LINES 
+    - text: "Collaborations"
+      icon: fa-users
+      href: Collaborations.html  # CHANGE HERE OR DELETE ALL 3 LINES 
   right:
     - text: "Contact me"
       icon: fa-envelope-o

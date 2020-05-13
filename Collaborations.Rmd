@@ -1,0 +1,33 @@
+---
+title: "Project Collaborations"
+output: html_document
+---
+
+<br> 
+
+
+### JBA Risk Management \ \ \ \   <img src="JBA_logo.png" alt="drawing" style="width:180px;"/>
+
+<br>
+
+ <a href="JBA_briefing.pdf#" class="download" title="Download JBA briefing"> Briefing </a> summarising the main findings of the collaboration on:
+ 
+ **Improving the consideration of uncertainty in a flood cat model**
+ 
+<br> 
+<br>
+<br>
+
+### AXA XL \ \ \ \   <img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/>
+
+<br>
+
+- Case study on actuarial pricing model
+
+- Case study on cat models from third party model vendors
+
+<span style="color:blue">(*more details to come*)
+ 
+ 
+
+

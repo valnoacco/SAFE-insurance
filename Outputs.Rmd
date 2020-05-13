@@ -1,5 +1,6 @@
 ---
 title: "Outputs"
+output: html_document
 ---
 
 <br> 

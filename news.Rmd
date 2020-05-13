@@ -7,11 +7,11 @@ output: html_document
 
 ## Events I am attending:
 
-- 10-11th June 2020 I'm attending the [Oasis LMF Conference - The good, the bad and the ugly](https://oasislmf.org/events/oasis-conference-2020-good-bad-and-ugly)
+- 10-11th June 2020 I'm attending the [Oasis LMF Conference - The good, the bad and the ugly](https://oasislmf.org/events/oasis-conference-2020-good-bad-and-ugly) (postponed)
 
-- 3rd-8th May 2020 I'm attending [EGU General Assembly 2020](https://egu2020.eu/) and giving a presentation on **Improving the robustness of flood catastrophe models in insurance through academia-industry collaboration** and on **Interactive Jupyter Notebooks for the visual analysis of critical choices in Global Sensitivity Analysis**
+- 3rd-8th May 2020 I'm attending [EGU General Assembly 2020](https://egu2020.eu/) and giving a presentation on [**Improving the robustness of flood catastrophe models in insurance through academia-industry collaboration**](https://meetingorganizer.copernicus.org/EGU2020/EGU2020-10037.html) and on [**Interactive Jupyter Notebooks for the visual analysis of critical choices in Global Sensitivity Analysis**](https://meetingorganizer.copernicus.org/EGU2020/EGU2020-18831.html)
 
-- 24-27th March 2020 I'm attending [SIAM Conference on Uncertainty Quantification](https://www.siam.org/conferences/cm/conference/uq20) and giving a talk on [From uncertainty quantification to uncertainty attribution: what we can learn through global sensitivity analysis and how it can help in the calibration and evaluation of hydrological models](https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=all&ses=1713#anker_session_1713)
+- 24-27th March 2020 I'm attending [SIAM Conference on Uncertainty Quantification](https://www.siam.org/conferences/cm/conference/uq20) and giving a talk on [From uncertainty quantification to uncertainty attribution: what we can learn through global sensitivity analysis and how it can help in the calibration and evaluation of hydrological models](https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=all&ses=1713#anker_session_1713) (cancelled)
 
 - 10-12th March 2020 I'm attending [CAT Risk Management & Modelling Europe 2020](http://catrisklondon.aventedge.com/)
 

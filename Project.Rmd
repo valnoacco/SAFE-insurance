@@ -1,5 +1,6 @@
 ---
 title: "Project Information"
+output: html_document
 ---
 
 <br> 
