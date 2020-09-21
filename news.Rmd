@@ -7,8 +7,6 @@ output: html_document
 
 ## Events I am attending:
 
-- 10-11th June 2020 I'm attending the [Oasis LMF Conference - The good, the bad and the ugly](https://oasislmf.org/events/oasis-conference-2020-good-bad-and-ugly) (postponed)
-
 - 3rd-8th May 2020 I'm attending [EGU 2020 Sharing Geoscience Online](https://egu2020.eu/) and giving presentations on:
   - [**Improving the robustness of flood catastrophe models in insurance through academia-industry collaboration**](https://meetingorganizer.copernicus.org/EGU2020/EGU2020-10037.html) also available <a href="EGU2020_display_Noacco_et_al_13_04_20.pdf#" class="download" title="Download pdf JBA EGU"> here</a>
   - [**Interactive Jupyter Notebooks for the visual analysis of critical choices in Global Sensitivity Analysis**](https://meetingorganizer.copernicus.org/EGU2020/EGU2020-18831.html) also available <a href="EGU2020_Noacco_jupyter_notebook/EGU2020_18831_Noacco.html#" class="download" title="Download html vis EGU"> here </a>

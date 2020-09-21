@@ -9,19 +9,6 @@ These are some of the outputs of my KE Fellowship:
 
 <br> 
 
-## Presentations
-
- - <a href="VNoacco_GSA_pricing.pdf#" class="download" title="GSA_pricing"> Presentation </a> at Bristol Actuarial Society on "How can sensitivity analysis help the insurance industry make more robust decisions based on pricing models?" in June 2019
- 
- - <a href="GSA_SAFE_presentation_OASIS_VNoacco.pdf#" class="download" title="GSA_JBA_flood"> Presentation </a> on "How SAFE is your model? Sensitivity Analysis in flood catastrophe modelling" at OASIS Conference 2019
-
-  - <a href="Poster_VNoacco_EGU_2019.pdf#" class="download" title="Download EGU poster as PDF"> Poster </a> at European Geosciences  Union General Assembly 2019
-  
- - <a href="Poster_VNoacco_EGU_2018.pdf#" class="download" title="Download EGU poster as PDF"> Poster </a>	 at European Geosciences Union General Assembly 2018
-  
- - <a href="Poster_AGU2017_VNOACCO_07_12_2017_final.pdf#" class="download" title="Download AGU poster as PDF"> Poster </a>	at American Geophysical Union Fall Meeting Conference 2017
- 
-<br> 
 
 ## Training material
 
@@ -40,6 +27,22 @@ These are some of the outputs of my KE Fellowship:
 <br>
 
 You can download the SAFE toolbox in R, Python or Matlab from here: https://www.safetoolbox.info/register-for-download/)
+
+<br>
+
+## Presentations
+
+ - <a href="VNoacco_GSA_pricing.pdf#" class="download" title="GSA_pricing"> Presentation </a> at Bristol Actuarial Society on "How can sensitivity analysis help the insurance industry make more robust decisions based on pricing models?" in June 2019
+ 
+ - <a href="GSA_SAFE_presentation_OASIS_VNoacco.pdf#" class="download" title="GSA_JBA_flood"> Presentation </a> on "How SAFE is your model? Sensitivity Analysis in flood catastrophe modelling" at OASIS Conference 2019
+
+  - <a href="Poster_VNoacco_EGU_2019.pdf#" class="download" title="Download EGU poster as PDF"> Poster </a> at European Geosciences  Union General Assembly 2019
+  
+ - <a href="Poster_VNoacco_EGU_2018.pdf#" class="download" title="Download EGU poster as PDF"> Poster </a>	 at European Geosciences Union General Assembly 2018
+  
+ - <a href="Poster_AGU2017_VNOACCO_07_12_2017_final.pdf#" class="download" title="Download AGU poster as PDF"> Poster </a>	at American Geophysical Union Fall Meeting Conference 2017
+ 
+<br> 
 
 [comment]: <> (## Research papers)
 

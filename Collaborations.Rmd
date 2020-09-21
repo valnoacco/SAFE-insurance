@@ -26,7 +26,7 @@ output: html_document
 
 - Case study on cat models from third party model vendors
 
-<span style="color:blue">(*more details to come*)
+<span style="color:blue">(*more details coming soon*)
  
  
 
