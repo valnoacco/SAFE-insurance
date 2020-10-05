@@ -16,9 +16,9 @@ title: "Material on GSA and the SAFE toolbox"
  
  - [Paper on the issue of handling epistemic uncertainty due to climate change in landslide hazard modelling (open access paper)](https://www.nat-hazards-earth-syst-sci.net/17/225/2017/nhess-17-225-2017-discussion.html)
  
- 
  - [Paper on a GSA/SAFE application to a flood inundation model (open access paper)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015WR018198)
  
+
 <br>  
  
 ## Sensitivity Analysis For Everybody (SAFE) toolbox
@@ -26,4 +26,7 @@ title: "Material on GSA and the SAFE toolbox"
  - [Website to download SAFE](https://www.safetoolbox.info/)
 
 - [Introductory paper to SAFE (open access paper)](https://www.sciencedirect.com/science/article/pii/S1364815215001188)
+
+- <a href="workflow_PAWN_ishigami_homma_to_share#" class="download" title="PAWN_IshigamiHomma">Workflow to guide in the application of the PAWN GSA method using the SAFE toolbox and to interpret the results</a>
+
 
