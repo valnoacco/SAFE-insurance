@@ -21,19 +21,26 @@ The **objective of my fellowship** is to transfer methods, tools and expertise t
 
 In order to overcome the so-called “valley of death”[1](#ref1) (the gap between research development and uptake by industry) I have:
 
-- developed [several case studies](https://safe-insurance.uk/Outputs.html) with re-insurance companies and model vendors, which demonstrate the benefit of using Global Sensitivity Analysis (GSA) to help the catastrophe model building process and forming their view of risk. 
+- developed [several case studies](https://safe-insurance.uk/Outputs.html#briefings) with re-insurance companies and model vendors, which demonstrate the benefit of using Global Sensitivity Analysis (GSA) to help the catastrophe model building process and forming their view of risk. 
 
-- developed [training material](https://safe-insurance.uk/Outputs.html/#training_material)
+- developed [training material](https://safe-insurance.uk/Outputs.html#training_material) in the form of workflows (Rmarkdown or Jupyter Notebooks) which guide the user through the steps needed to apply GSA with the SAFE toolbox and to interpret the results, using as case studies models used in the re/insurance industry.
 
-- disseminated the knowledge gained through these case studies to the wider re/insurance sector through presentations and workshops at conference.
+- disseminated the knowledge gained through these case studies to the wider re/insurance sector through [presentations and workshops](https://safe-insurance.uk/Outputs.html#selected_presentations) at conferences.
+
+<br>
 
 
+I hope that the work carried out during my fellowship has set the path for the re-insurance sector to increase ownership of the mathematical models in use, by gaining an improved understanding of where the uncertainties lie in their modelling process. This allows to prioritise efforts to reduce these uncertainties and increases the confidence in the model use, and in the business decisions that follows.
+
+
+
+<br>
  
 <br> 
  
 ## Dr Valentina Noacco
 
-Valentina received her MSc in Water and Environmental Management in 2012 and her PhD in Civil Engineering in 2017 (“Investigation of long-term drivers and controls on fluvial dissolved organic carbon and nitrate in the UK”) from the University of Bristol. In 2017 she held a 7-month research project at the University of Bristol on Applied Sensitivity Analysis. Since November 2017 she holds a 3-year Knowledge Exchange Fellowship.
+Valentina received her MSc in Water and Environmental Management in 2012 and her PhD in Civil Engineering in 2017 (“Investigation of long-term drivers and controls on fluvial dissolved organic carbon and nitrate in the UK”) from the University of Bristol. In 2017 she held a 7-month research project at the University of Bristol on Applied Sensitivity Analysis. Since November 2017 she holds a Knowledge Exchange Fellowship.
 
 <br>
 

@@ -14,7 +14,7 @@ output: html_document
  
  - [Practical guide through the critical choices needed for Global Sensitivity Analysis (open access paper)](https://doi.org/10.1016/j.mex.2019.09.033)
  
- - [What has Global Sensitivity Analysis ever done for us? A systematic review to support scientific advancement and to inform policy-making in earth system modelling (open access paper)](https://research-information.bris.ac.uk/ws/portalfiles/portal/189945689/Wagener_Pianosi_ESR_11.pdf)
+ - [A systematic review to support scientific advancement and to inform policy-making in earth system modelling (open access paper)](https://research-information.bris.ac.uk/ws/portalfiles/portal/189945689/Wagener_Pianosi_ESR_11.pdf)
 
  - <a href="GSA_Case_Studies.pdf#" class="download" title="Download examples of GSA-SAFE as PDF">Brief description of a range of GSA/SAFE applications</a>	
  

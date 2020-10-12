@@ -9,6 +9,9 @@ output: html_document
 
 ## Briefings
 
+<a ref="briefings"></a> 
+
+
 - Briefing summarising the main outcomes of my fellowship <span style="color:blue">(*coming soon*)
 
 - <a href="JBA_briefing.pdf#" class="download" title="Download JBA briefing"> Briefing </a> summarising the main findings of the collaboration with JBA Risk Management on: 
@@ -17,7 +20,7 @@ output: html_document
 -  Briefing summarising the main findings of the collaboration with AXA XL on:
 <p>**Prioritising efforts to reduce uncertainty in a third-party cat model** <span style="color:blue">(*coming soon*)</p> \ \ \ \   <img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/>
  
- <br>
+ <br> <br>
 
 ## Training material 
 
@@ -39,10 +42,12 @@ output: html_document
 
 You can download the SAFE toolbox in R, Python or Matlab from here: https://www.safetoolbox.info/register-for-download/)
 
-<br>
-
+<br> <br>
  
 ## Selected presentations
+
+<a ref="selected_presentations"></a> 
+
 
   - <a href="EGU2020_display_Noacco_et_al_13_04_20.pdf#" class="download" title="Download pdf JBA EGU"> Presentation </a> on **Improving the robustness of flood catastrophe models in insurance through academia-industry collaboration** at the European Geosciences Union General Assembly 2020
   
@@ -59,12 +64,12 @@ You can download the SAFE toolbox in R, Python or Matlab from here: https://www.
  - <a href="Poster_AGU2017_VNOACCO_07_12_2017_final.pdf#" class="download" title="Download AGU poster as PDF"> Poster </a> on **How can sensitivity analysis improve the robustness of mathematical models utilized by the re/insurance industry?** at the American Geophysical Union Fall Meeting Conference 2017
 
 <br>
+<br>
 
 ## Blog:
 - [Blog](http://cabot-institute.blogspot.com/2019/01/what-global-threats-should-we-be-most.html) for the [Cabot Institute for the Environment](http://www.bristol.ac.uk/cabot/) on the [Launch of the Cambridge Global Risk Index 2019](https://www.jbs.cam.ac.uk/faculty-research/centres/risk/news-events/events/2018-events/cambridge-global-risk-index-2019-launch-event/) - **What global threats should we be most worried about in 2019?**
 
-<br>
-
+<br> <br>
 
 ## What they say about our work:
 
