@@ -14,13 +14,13 @@ Insurance companies provide insurance against a wide range of threats, such as n
 
 <br> 
 
-## Summary of what was achieved
+## Summary of what has been achieved
 
 We developed several case studies with re-insurance companies and model vendors, which demonstrate the benefit of using Global Sensitivity Analysis (GSA) to help the catastrophe model building process and forming their view of risk. 
 
-In the specific, a case study with the **actuarial pricing team at AXA XL** shows how increased efficiency of their model validation process can be reached, by highlighting the most influential assumptions that deserve extra attention when reviewing the model. The case study also allows to better communicate the underlying model uncertainty to underwriters and to enhance the credibility of the results. 
+In the specific, a [case study](https://safe-insurance.uk/Outputs.html#selected_presentations) with the **actuarial pricing team at AXA XL** shows how increased efficiency of their model validation process can be reached, by highlighting the most influential assumptions that deserve extra attention when reviewing the model. The case study also allows to better communicate the underlying model uncertainty to underwriters and to enhance the credibility of the results. 
 
-We also developed a case study with **JBA Risk Management** on their Global Flood Model. By varying model inputs that are not normally varied in traditional cat models, we achieved an increased understanding of the model beyond its default set up. Moreover, the uncertainty of the losses at different return periods in the Exceedance-Probability curve is visualised, an insight not usually available for model users, but which allows to adequately communicate uncertainties to decision-makers. 
+We also developed a [case study](https://safe-insurance.uk/Outputs.html#briefings) with **JBA Risk Management** on their Global Flood Model. By varying model inputs that are not normally varied in traditional cat models, we achieved an increased understanding of the model beyond its default set up. Moreover, the uncertainty of the losses at different return periods in the Exceedance-Probability curve is visualised, an insight not usually available for model users, but which allows to adequately communicate uncertainties to decision-makers. 
 
 <br>
 
@@ -29,7 +29,7 @@ _Distribution of losses by return period (RP) shows increased uncertainty with h
 
 <br>
 
-Finally, the case study with **AXA XL on a third-party cat model** empowers model users to explore the model uncertainties on which they have control of, as proprietary models have limited components that can be modified. In turn, by exploring the impact of exposure data and the spatial resolution on the model losses we could prioritise the investments on better quality data that would reduce the losses uncertainty the most.
+Finally, the [case study](https://safe-insurance.uk/Outputs.html#briefings) with **AXA XL on a third-party cat model** empowers model users to explore the model uncertainties on which they have control of, as proprietary models have limited components that can be modified. In turn, by exploring the impact of exposure data and the spatial resolution on the model losses we could prioritise the investments on better quality data that would reduce the losses uncertainty the most.
 
 <br>
 
