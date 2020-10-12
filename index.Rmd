@@ -1,5 +1,5 @@
 ---
-title: "Transferring Sensitivity Analysis to the (Re)Insurance Sector"
+title: "Transferring Sensitivity Analysis to the Re-Insurance Sector"
 ---
 
 <br>
@@ -8,36 +8,55 @@ title: "Transferring Sensitivity Analysis to the (Re)Insurance Sector"
 knitr::include_graphics("logo_website.png")
 ```
 
-## Main objective of this fellowship
+<br> <br>
 
 
-The main aim of the project is to transfer state-of-the-art Global Sensitivity Analysis (GSA) methods, tools and knowledge to the (re)insurance industry and to tailor them in such a way as to facilitate their uptake in the sector. The project will enable the (re)insurance industry to more efficiently capture the uncertainties and sensitivities embedded in their mathematical models, with structured approaches to validate these models and to test the impact of assumptions on model predictions. By better capturing uncertainty, decision-making will be more robust, as the chance of unexpected surprises is reduced.
+Methods (e.g. **Global Sensitivity Analysis**) and tools (e.g. the **SAFE toolbox**) to adequately capture uncertainty in mathematical models are available in academia, but tailored workflows and case studies (close to the area of expertise of model users) are needed to demonstrate their benefits and to accelerate their uptake in industry. 
+
+The **objective of my fellowship** is to transfer methods, tools and expertise to improve the understanding and consideration of uncertainty in mathematical models used in the re-insurance industry. By better capturing uncertainty, we can achieve a more robust decision-making process, as the chance of unexpected surprises is reduced.
 
 <br> 
 
-## How I see my role as NERC Knowledge Exchange (KE) Fellow
- 
-Methods and tools to adequately capture uncertainty in mathematical models are already available in academia, but tailored tools, workflows and case studies (close to the area of expertise of model users) are needed to demonstrate GSA benefits and to accelerate its uptake in industry. To overcome the so-called “valley of death” [1] (gap between research development and uptake by industry) it is needed to:
+## Activities I've done during my fellowship include:
 
- - Create common language between academia and industry.
- - Identify needs of the insurance sector; what methods and tools they already use.
- - Identify how they learn about new research and methods; how they adopt them.
- - Identify barriers preventing the uptake of new methods and tools.
- - Identify “champions”, “sponsors” and “gatekeepers” [1].
- - Understand insurance model workflows; make them explicit.
- - Benefits of using GSA need to be communicated clearly.
+In order to overcome the so-called “valley of death”[1](#ref1) (the gap between research development and uptake by industry) I have:
+
+- developed [several case studies](https://safe-insurance.uk/Outputs.html) with re-insurance companies and model vendors, which demonstrate the benefit of using Global Sensitivity Analysis (GSA) to help the catastrophe model building process and forming their view of risk. 
+
+- developed [training material](https://safe-insurance.uk/Outputs.html/#training_material)
+
+- disseminated the knowledge gained through these case studies to the wider re/insurance sector through presentations and workshops at conference.
+
+
  
 <br> 
  
 ## Dr Valentina Noacco
 
-Valentina received her MSc in Water and Environmental Management in 2012 and her PhD in Civil Engineering in 2017 (“Investigation of long-term drivers and controls on fluvial dissolved organic carbon and nitrate in the UK”) from the University of Bristol. In 2017 she held a 7-month research project at the University of Bristol on Applied Sensitivity Analysis. Since November 2017 she holds a 3-year KE Fellowship.
+Valentina received her MSc in Water and Environmental Management in 2012 and her PhD in Civil Engineering in 2017 (“Investigation of long-term drivers and controls on fluvial dissolved organic carbon and nitrate in the UK”) from the University of Bristol. In 2017 she held a 7-month research project at the University of Bristol on Applied Sensitivity Analysis. Since November 2017 she holds a 3-year Knowledge Exchange Fellowship.
+
+<br>
+
+<div style="text-align: right"> _I'll be on maternity leave until the end of June 2021._
+
+_Go to the [contact page](https://safe-insurance.uk/Contact_me.html) to see how you can reach the team during my absence._ </div>
 
 <br> 
+
+
+
 
 <img src="UoB_logo.jpg" alt="drawing" style="width:200px;"/> \ \ \ \ \ \ \ \ \   <img src="nerc_logo.png" alt="drawing" style="width:100px;"/> 
 
 <br>
 <br>
 
-[1] - [The Valley of Death as Context for Role Theory in Product Innovation](https://doi.org/10.1111/j.1540-5885.2010.00724.x) 
+
+This work has been funded by the UK Natural Environment Research Council (NERC) (November 2017 to September 2021):
+
+KE Fellowship: NE/R003734/1.
+
+<br>
+
+<a id="ref1"></a>
+1 - [The Valley of Death as Context for Role Theory in Product Innovation](https://doi.org/10.1111/j.1540-5885.2010.00724.x) 

@@ -5,12 +5,23 @@ output: html_document
 
 <br> 
 
-These are some of the outputs of my KE Fellowship:
-
-<br> 
 
 
-## Training material
+## Briefings
+
+- Briefing summarising the main outcomes of my fellowship <span style="color:blue">(*coming soon*)
+
+- <a href="JBA_briefing.pdf#" class="download" title="Download JBA briefing"> Briefing </a> summarising the main findings of the collaboration with JBA Risk Management on: 
+<p>**Improving the consideration of uncertainty in a flood cat model**</p> \ \ \ \   <img src="JBA_logo.png" alt="drawing" style="width:180px;"/>
+    
+-  Briefing summarising the main findings of the collaboration with AXA XL on:
+<p>**Prioritising efforts to reduce uncertainty in a third-party cat model** <span style="color:blue">(*coming soon*)</p> \ \ \ \   <img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/>
+ 
+ <br>
+
+## Training material 
+
+<a ref="training_material"></a> 
 
  - <a href="workflow_GSA_actuarial_example.html#" class="download" title="Download pdf Rmarkdown"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a pricing model in R or Excel, and interpretation of the results (This workflow was produced with Rmarkdown showing how to use the SAFE R version)
  
@@ -31,23 +42,38 @@ You can download the SAFE toolbox in R, Python or Matlab from here: https://www.
 <br>
 
  
-## Presentations
+## Selected presentations
 
-  - <a href="EGU2020_display_Noacco_et_al_13_04_20.pdf#" class="download" title="Download pdf JBA EGU"> Presentation </a> on **Improving the robustness of flood catastrophe models in insurance through academia-industry collaboration** at European Geosciences Union General Assemble 2020
+  - <a href="EGU2020_display_Noacco_et_al_13_04_20.pdf#" class="download" title="Download pdf JBA EGU"> Presentation </a> on **Improving the robustness of flood catastrophe models in insurance through academia-industry collaboration** at the European Geosciences Union General Assembly 2020
   
-  - <a href="EGU2020_Noacco_jupyter_notebook/EGU2020_18831_Noacco.html#" class="download" title="Download html vis EGU"> Presentation </a> on **Interactive Jupyter Notebooks for the visual analysis of critical choices in Global Sensitivity Analysis** at European Geosciences Union General Assemble 2020
+  - <a href="EGU2020_Noacco_jupyter_notebook/EGU2020_18831_Noacco.html#" class="download" title="Download html vis EGU"> Presentation </a> on **Interactive Jupyter Notebooks for the visual analysis of critical choices in Global Sensitivity Analysis** at the European Geosciences Union General Assembly 2020
 
- - <a href="VNoacco_GSA_pricing.pdf#" class="download" title="GSA_pricing"> Presentation </a> on **How can sensitivity analysis help the insurance industry make more robust decisions based on pricing models?** at Bristol Actuarial Society in June 2019
+ - <a href="VNoacco_GSA_pricing.pdf#" class="download" title="GSA_pricing"> Presentation </a> on **How can sensitivity analysis help the insurance industry make more robust decisions based on pricing models?** at the Bristol Actuarial Society in June 2019
  
- - <a href="GSA_SAFE_presentation_OASIS_VNoacco.pdf#" class="download" title="GSA_JBA_flood"> Presentation </a> on **How SAFE is your model? Sensitivity Analysis in flood catastrophe modelling** at OASIS Conference 2019
+ - <a href="GSA_SAFE_presentation_OASIS_VNoacco.pdf#" class="download" title="GSA_JBA_flood"> Presentation </a> on **How SAFE is your model? Sensitivity Analysis in flood catastrophe modelling** at the OASIS Conference 2019
  
- - <a href="Poster_VNoacco_EGU_2019.pdf#" class="download" title="Download EGU poster as PDF"> Poster </a> at European Geosciences  Union General Assembly 2019
+ - <a href="Poster_VNoacco_EGU_2019.pdf#" class="download" title="Download EGU poster as PDF"> Poster </a> on **Transferring expertise on Global Sensitivity Analysis to (re)insurance practitioners using workflows** at the European Geosciences  Union General Assembly 2019
   
- - <a href="Poster_VNoacco_EGU_2018.pdf#" class="download" title="Download EGU poster as PDF"> Poster </a>	 at European Geosciences Union General Assembly 2018
+ - <a href="Poster_VNoacco_EGU_2018.pdf#" class="download" title="Download EGU poster as PDF"> Poster </a> on **Overcoming the “valley of death” – Transferring tools and expertise on sensitivity analysis to the (re)insurance sector** at the European Geosciences Union General Assembly 2018
   
- - <a href="Poster_AGU2017_VNOACCO_07_12_2017_final.pdf#" class="download" title="Download AGU poster as PDF"> Poster </a>	at American Geophysical Union Fall Meeting Conference 2017
+ - <a href="Poster_AGU2017_VNOACCO_07_12_2017_final.pdf#" class="download" title="Download AGU poster as PDF"> Poster </a> on **How can sensitivity analysis improve the robustness of mathematical models utilized by the re/insurance industry?** at the American Geophysical Union Fall Meeting Conference 2017
 
 <br>
+
+## Blog:
+- [Blog](http://cabot-institute.blogspot.com/2019/01/what-global-threats-should-we-be-most.html) for the [Cabot Institute for the Environment](http://www.bristol.ac.uk/cabot/) on the [Launch of the Cambridge Global Risk Index 2019](https://www.jbs.cam.ac.uk/faculty-research/centres/risk/news-events/events/2018-events/cambridge-global-risk-index-2019-launch-event/) - **What global threats should we be most worried about in 2019?**
+
+<br>
+
+
+## What they say about our work:
+
+- [OASIS LMF news by CatInsight Feb 2018](https://oasislmf.org/news/february-article)
+
+- [OASIS LMF what to expect for 2018](https://oasislmf.org/application/files/3815/1991/6580/OasisNewsletter_FEBRUARY_2018.pdf)
+
+<br>
+
 
 
 

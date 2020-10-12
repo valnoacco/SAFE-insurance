@@ -1,0 +1,42 @@
+---
+title: "Events I have attended"
+output: html_document
+---
+
+<br> 
+
+
+- 3rd-8th May 2020 I've attended [EGU 2020 Sharing Geoscience Online](https://egu2020.eu/) and gave presentations on:
+  - [Improving the robustness of flood catastrophe models in insurance through academia-industry collaboration](https://meetingorganizer.copernicus.org/EGU2020/EGU2020-10037.html) 
+  - [Interactive Jupyter Notebooks for the visual analysis of critical choices in Global Sensitivity Analysis](https://meetingorganizer.copernicus.org/EGU2020/EGU2020-18831.html)
+
+- 10-12th March 2020 I've attended [CAT Risk Management & Modelling Europe 2020](http://catrisklondon.aventedge.com/)
+
+- 25th June 2019 I've given a talk at the [Bristol Actuarial Society](http://www.bristolactuaries.org/)
+
+- 18-19th June 2019 I've co-delivered the workshop "How SAFE is your model? Sensitivity Analysis in flood catastrophe modelling" in collaboration with JBA Risk Management and HindlesWorld Risk Solutions at the [Oasis Conference 2019 - The good, the bad and the ugly](https://oasislmf.org/application/files/6415/8074/3163/Agenda2019_OasisConference.pdf)
+
+- 25th April 2019 I've co-organised a university-insurance sector [workshop](http://www.bristol.ac.uk/engineering/events/2019/resilience.html) on
+strengthening resilience in the developing world 
+
+- 7-12th April 2019 I've attended [EGU General Assembly 2019](https://www.egu2019.eu/) and presented a poster on: "Transferring expertise on Global Sensitivity Analysis to (re)insurance practitioners using workflows"
+
+- 13-14th March 2019 I've attended CAT Risk Management & Modelling Europe 2019
+
+- 13-14th September 2018 I've attended the [Oasis LMF](https://oasislmf.org) Conference - The good, the bad and the ugly on current state, challenges and future directions of catastrophe modelling and the (re)insurance industry
+
+- 11-14th June 2018 I've attended [Models2Decisions](http://blogs.exeter.ac.uk/models2decisions/events/m2d-2018-annual-conference/) conference on decision making under uncertainty and presented a poster on: "Overcoming the “valley of death” – Transferring tools and expertise on sensitivity analysis to the (re)insurance sector"
+
+- 27-28th March 2018 I've attended [UK Alliance for Disaster Research Conference](http://ukadr.org/conference2018.html) and presented a poster on: "Overcoming the “valley of death” – Transferring tools and expertise on sensitivity analysis to the (re)insurance sector"
+
+- 8-13th April 2018 I've attended [EGU General Assembly 2018](https://egu2018.eu/) and presented a poster on: "Overcoming the “valley of death” – Transferring tools and expertise on sensitivity analysis to the (re)insurance sector"
+
+- 11th-15th December 2017 I've attended the American Geophysical Union Fall Meeting Conference 2017 and presented a poster on: "How can sensitivity analysis improve the robustness of mathematical models utilized by the re/insurance industry?"
+
+<br> 
+
+_For a copy of the presentations go to the **Selected presentations** section in the [Outputs](https://safe-insurance.uk/Outputs.html) page._
+
+
+
+

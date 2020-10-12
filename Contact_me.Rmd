@@ -11,9 +11,8 @@ knitr::include_graphics("foto_twitter.png")
 </center>
 
 <center>
-<a href="V_NOACCO_CV.pdf#" class="download" title="CV">Curriculum Vitae</a>	
+<a href="NOACCO_CV_2020.pdf#" class="download" title="CV">Curriculum Vitae</a>	
 
-<br>
 <br>
 
 Hosting research group:
@@ -21,7 +20,12 @@ Hosting research group:
 [Water and Environmental Engineering at the University of Bristol](http://www.bristol.ac.uk/engineering/research/water/)
 
 <br>
+
+<center>
+I'll be on maternity leave until the end of June 2021.
+
+In the mean time you can contact my collaborators:
+[Francesca Pianosi](http://www.bristol.ac.uk/engineering/people/francesca-pianosi/overview.html) and [Thorsten Wagener](http://www.bristol.ac.uk/engineering/people/thorsten-wagener/index.html).
 <br>
 
-<a class="twitter-timeline" data-width="400" data-height="400" href="https://twitter.com/ValentinaNoacco?ref_src=twsrc%5Etfw">Tweets by ValentinaNoacco</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

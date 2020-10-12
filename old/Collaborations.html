@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>Material on GSA and the SAFE toolbox</title>
+<title>Project Collaborations</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -70,9 +71,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -86,13 +85,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -100,34 +104,70 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 52px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 57px;
+  margin-top: -57px;
 }
-
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 57px;
+  margin-top: -57px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 57px;
+  margin-top: -57px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 57px;
+  margin-top: -57px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 57px;
+  margin-top: -57px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -149,19 +189,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -174,36 +269,15 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">GSA-insurance</a>
+      <a class="navbar-brand" href="index.html">SAFE-insurance</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">
-    <span class="fa fa-home"></span>
-     
-    Home
-  </a>
-</li>
-<li>
   <a href="Project.html">
-    <span class="fa fa-folder-open-o"></span>
+    <span class="fa fa-cubes"></span>
      
     Project
-  </a>
-</li>
-<li>
-  <a href="cv.html">
-    <span class="fa fa-cogs"></span>
-     
-    GSA-SAFE
-  </a>
-</li>
-<li>
-  <a href="https://YOURGITHUB.github.io/blog/">
-    <span class="fa fa-newspaper-o"></span>
-     
-    News
   </a>
 </li>
 <li>
@@ -211,6 +285,20 @@ $(document).ready(function () {
     <span class="fa fa-file-pdf-o"></span>
      
     Outputs
+  </a>
+</li>
+<li>
+  <a href="events.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    Events
+  </a>
+</li>
+<li>
+  <a href="GSA-SAFE_material.html">
+    <span class="fa fa-cogs"></span>
+     
+    GSA-SAFE material
   </a>
 </li>
       </ul>
@@ -222,13 +310,6 @@ $(document).ready(function () {
     Contact me
   </a>
 </li>
-<li>
-  <a href="https://github.com/valnoacco">
-    <span class="fa fa-github"></span>
-     
-    GitHub
-  </a>
-</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -238,24 +319,27 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Material on GSA and the SAFE toolbox</h1>
+<h1 class="title toc-ignore">Project Collaborations</h1>
 
 </div>
 
 
-<div id="global-sensitivity-analysis-gsa-material" class="section level2">
-<h2>Global Sensitivity Analysis (GSA) material</h2>
-<ul>
-<li><p><a href="GSA_SAFE_intro.pdf#" class="download" title="Download GSA and SAFE intro as PDF">Brief introductory presentation on GSA and the SAFE toolbox</a></p></li>
-<li><p><a href="https://www.sciencedirect.com/science/article/pii/S1364815216300287">A review of available methods and workflows for Sensitivity Analysis (open access paper)</a></p></li>
-</ul>
+<p><br></p>
+<div id="jba-risk-management" class="section level3">
+<h3>JBA Risk Management      <img src="jba_logo.png" alt="drawing" style="width:180px;"/></h3>
+<p><br></p>
+<p><a href="JBA_briefing.pdf#" class="download" title="Download JBA briefing"> Briefing </a> summarising the main findings of the collaboration on:</p>
+<p><strong>Improving the consideration of uncertainty in a flood cat model</strong></p>
+<p><br> <br> <br></p>
 </div>
-<div id="sensitivity-analysis-for-everybody-safe-toolbox" class="section level2">
-<h2>Sensitivity Analysis For Everybody (SAFE) toolbox</h2>
+<div id="axa-xl" class="section level3">
+<h3>AXA XL      <img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/></h3>
+<p><br></p>
 <ul>
-<li><p><a href="https://www.safetoolbox.info/">Website to download SAFE</a></p></li>
-<li><p><a href="https://www.sciencedirect.com/science/article/pii/S1364815215001188">Introductory paper to SAFE (open access paper)</a></p></li>
+<li><p>Case study on actuarial pricing model</p></li>
+<li><p>Case study on cat models from third party model vendors</p></li>
 </ul>
+<p><span style="color:blue">(<em>more details coming soon</em>)</p>
 </div>
 
 
@@ -275,6 +359,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

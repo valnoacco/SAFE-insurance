@@ -4,27 +4,18 @@ navbar:
   title: "SAFE-insurance"                             # CHANGE HERE 
   type: inverse
   left:
-    - text: "Home"
-      icon: fa-home
-      href: index.html
     - text: "Project"
       icon: fa-cubes 
       href: Project.html
-    - text: "GSA-SAFE"
-      icon: fa-cogs
-      href: GSA-SAFE.html
-    #- text: "Blog"
-     # icon: fa-rss
-     # href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES
-    - text: "News"
-      icon: fa-newspaper-o
-      href: news.html  # CHANGE HERE OR DELETE ALL 3 LINES
     - text: "Outputs"
       icon: fa-file-pdf-o
       href: Outputs.html  # CHANGE HERE OR DELETE ALL 3 LINES 
-    - text: "Collaborations"
-      icon: fa-users
-      href: Collaborations.html  # CHANGE HERE OR DELETE ALL 3 LINES 
+    - text: "Events"
+      icon: fa-newspaper-o
+      href: events.html  # CHANGE HERE OR DELETE ALL 3 LINES
+    - text: "GSA-SAFE material"
+      icon: fa-cogs
+      href: GSA-SAFE_material.html
   right:
     - text: "Contact me"
       icon: fa-envelope-o
