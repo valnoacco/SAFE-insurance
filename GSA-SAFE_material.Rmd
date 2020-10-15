@@ -40,8 +40,7 @@ output: html_document
 
 ```{r video, echo=FALSE, warning=FALSE}
 library("vembedr")
-embed_url("https://vimeo.com/467774754") %>%
-  use_start_time("2m49")
+embed_url("https://vimeo.com/467774754")
 ```
 
 
