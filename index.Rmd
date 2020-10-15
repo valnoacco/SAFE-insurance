@@ -15,7 +15,11 @@ Methods (e.g. **Global Sensitivity Analysis**) and tools (e.g. the **SAFE toolbo
 
 <br>
 
+***
+
 The **objective of my fellowship** is to transfer methods, tools and expertise to improve the understanding and consideration of uncertainty in mathematical models used in the re-insurance industry. By better capturing uncertainty, we can achieve a more robust decision-making process, as the chance of unexpected surprises is reduced.
+
+***
 
 <br> 
 
@@ -38,6 +42,7 @@ I hope that the work carried out during my fellowship has set the path for the r
 <br>
 
 ***
+
 If you are interested in bringing GSA into your current practice:
 
 - you can download the SAFE toolbox in R, Python or Matlab from [here](https://www.safetoolbox.info/register-for-download/);

@@ -38,8 +38,7 @@ output: html_document
 
 #### <span style="color:blue"> **_Introductory video on Sensitivity Analysis_**
 
-<iframe  title="Non-technical introduction to Sensitivity Analysis" width="480" height="390" src="https://vimeo.com/467774754?autoplay=1" frameborder="0" allowfullscreen></iframe>
-
+![](https://vimeo.com/467774754){width="80%"}
 
 
 
