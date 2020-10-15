@@ -40,7 +40,7 @@ output: html_document
 
 <br>
 
-You can download the SAFE toolbox in R, Python or Matlab from here: https://www.safetoolbox.info/register-for-download/)
+You can download the SAFE toolbox in R, Python or Matlab from [here](https://www.safetoolbox.info/register-for-download/)
 
 <br> <br>
  

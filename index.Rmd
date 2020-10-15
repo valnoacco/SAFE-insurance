@@ -13,6 +13,8 @@ knitr::include_graphics("logo_website.png")
 
 Methods (e.g. **Global Sensitivity Analysis**) and tools (e.g. the **SAFE toolbox**) to adequately capture uncertainty in mathematical models are available in academia, but tailored workflows and case studies (close to the area of expertise of model users) are needed to demonstrate their benefits and to accelerate their uptake in industry. 
 
+<br>
+
 The **objective of my fellowship** is to transfer methods, tools and expertise to improve the understanding and consideration of uncertainty in mathematical models used in the re-insurance industry. By better capturing uncertainty, we can achieve a more robust decision-making process, as the chance of unexpected surprises is reduced.
 
 <br> 
@@ -32,6 +34,19 @@ In order to overcome the so-called “valley of death”[1](#ref1) (the gap betw
 
 I hope that the work carried out during my fellowship has set the path for the re-insurance sector to increase ownership of the mathematical models in use, by gaining an improved understanding of where the uncertainties lie in their modelling process. This allows to prioritise efforts to reduce these uncertainties and increases the confidence in the model use, and in the business decisions that follows.
 
+
+<br>
+
+***
+If you are interested in bringing GSA into your current practice:
+
+- you can download the SAFE toolbox in R, Python or Matlab from [here](https://www.safetoolbox.info/register-for-download/);
+
+- you can use the workflows in the [training material](https://safe-insurance.uk/Outputs.html#training_material) as a template to apply GSA to your case;
+
+- [contact](https://safe-insurance.uk/Contact_me.html) the team to scope potential collaborations/arrange a workshop at your organisation.
+
+***
 
 
 <br>
