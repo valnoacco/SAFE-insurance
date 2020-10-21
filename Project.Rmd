@@ -4,7 +4,7 @@ output: html_document
 ---
 
 
-<img src="Zaid_quote.png" alt="drawing" style="width:400px;"/>  \ \ \ \ \ \ \ \ \  <img src="JBA_quote.png" alt="drawing" style="width:400px;"/>
+<img src="Zaid_quote.png" alt="drawing" style="width:280px;"/>  \    <img src="JBA_quote.png" alt="drawing" style="width:280px;"/> \    <img src="AXAXL_Cat_quote.png" alt="drawing" style="width:280px;"/>
 
 <br>
 
