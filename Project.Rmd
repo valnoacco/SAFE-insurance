@@ -3,8 +3,19 @@ title: "Project Information"
 output: html_document
 ---
 
+```{r plot_quotes, warning=FALSE, echo=FALSE, message=FALSE}
+library(grid)
+library(ggplot2)
+library(magick)
 
-<img src="Zaid_quote.png" alt="drawing" style="width:280px;"/>  \    <img src="JBA_quote.png" alt="drawing" style="width:280px;"/> \    <img src="AXAXL_Cat_quote.png" alt="drawing" style="width:280px;"/>
+p1 <- image_read("Zaid_quote.png")
+p2 <- image_read("JBA_quote.png")
+p3 <- image_read("AXAXL_Cat_quote.png")
+
+image_append(c(p1,p2,p3))
+
+```
+
 
 <br>
 
