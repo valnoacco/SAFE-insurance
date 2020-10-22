@@ -36,7 +36,7 @@ output: html_document
 
 <br> <br>
 
-#### <span style="color:blue"> **_Introductory video on Sensitivity Analysis_**
+## Introductory video on Sensitivity Analysis
 
 ```{r video, echo=FALSE, warning=FALSE}
 library("vembedr")
