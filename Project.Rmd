@@ -79,6 +79,8 @@ The knowledge gained through these case studies has been disseminated to the wid
 
 ## Project Teams
 
+<br>
+
 ### Academic collaborators:
 - [Francesca Pianosi](http://www.bris.ac.uk/engineering/people/francesca-pianosi/index.html)
 - [Thorsten Wagener](http://www.bristol.ac.uk/engineering/people/thorsten-wagener/)

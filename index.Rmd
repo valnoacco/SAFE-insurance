@@ -15,11 +15,16 @@ Methods (e.g. **Global Sensitivity Analysis**) and tools (e.g. the **SAFE toolbo
 
 <br>
 
-***
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
 
 The **objective of my fellowship** is to transfer methods, tools and expertise to improve the understanding and consideration of uncertainty in mathematical models used in the re-insurance industry. By better capturing uncertainty, we can achieve a more robust decision-making process, as the chance of unexpected surprises is reduced.
 
-***
+</div>
+
 
 <br> 
 
@@ -35,10 +40,17 @@ In order to overcome the so-called “valley of death”[1](#ref1) (the gap betw
 
 <br>
 
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 ### Legacy statement
 
 I hope that the work carried out during my fellowship has set the path for the re-insurance sector to increase ownership of the mathematical models in use, by gaining an improved understanding of where the uncertainties lie in their modelling process. This allows to prioritise efforts to reduce the major sources of uncertainty and increases the confidence in the model use, and in the business decisions that will follow.
 
+</div>
 
 <br>
 
