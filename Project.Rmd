@@ -29,7 +29,7 @@ Insurance companies provide insurance against a wide range of threats, such as n
 
 We developed several case studies with re-insurance companies and model vendors, which demonstrate the benefit of using Global Sensitivity Analysis (GSA) to help the catastrophe model building process and forming their view of risk. 
 
-In the specific, a [case study](https://safe-insurance.uk/Outputs.html#selected_presentations) with the **actuarial pricing team at AXA XL** shows how increased efficiency of their model validation process can be reached, by highlighting the most influential assumptions that deserve extra attention when reviewing the model. The case study also allows to better communicate the underlying model uncertainty to underwriters and to enhance the credibility of the results. 
+In the specific, a <a href="VNoacco_GSA_pricing.pdf#" class="download" title="GSA_pricing"> case study </a>  with the **actuarial pricing team at AXA XL** shows how increased efficiency of their model validation process can be reached, by highlighting the most influential assumptions that deserve extra attention when reviewing the model. The case study also allows to better communicate the underlying model uncertainty to underwriters and to enhance the credibility of the results. 
 
 
 <div class = "row">

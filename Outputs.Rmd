@@ -7,9 +7,7 @@ output: html_document
 
 
 
-## Briefings 
-
-<a ref="briefings"></a> 
+## Briefings {#briefings}
 
 
 - <a href="Fellowship_briefing_21_10_2020.pdf#" class="download" title="Download fellowship briefing"> Briefing </a> summarising the main outcomes of my fellowship
@@ -22,9 +20,7 @@ output: html_document
  
  <br> <br>
 
-## Training material 
-
-<a ref="training_material"></a> 
+## Training material {#training_material}
 
  - <a href="workflow_GSA_actuarial_example.html#" class="download" title="Download pdf Rmarkdown"> Workflow </a> to guide in the application of Global Sensitivity Analysis to a pricing model in R or Excel, and interpretation of the results (This workflow was produced with Rmarkdown showing how to use the SAFE R version)
  
