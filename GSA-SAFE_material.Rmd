@@ -36,7 +36,7 @@ output: html_document
 
 <br> <br>
 
-## Introductory video on Sensitivity Analysis
+## Introductory video to Sensitivity Analysis
 
 ```{r video, echo=FALSE, warning=FALSE}
 library("vembedr")
