@@ -85,9 +85,13 @@ The knowledge gained through these case studies has been disseminated to the wid
 - [Francesca Pianosi](http://www.bris.ac.uk/engineering/people/francesca-pianosi/index.html)
 - [Thorsten Wagener](http://www.bristol.ac.uk/engineering/people/thorsten-wagener/)
 
+<br>
+
 ### Industry partners:
 - [AXA XL](https://axaxl.com/)
 - [OASIS Loss Modelling Framework](https://oasislmf.org/)
+
+<br>
 
 ### Case study partners:
 - [JBA Risk Management](https://www.jbarisk.com/)
@@ -106,11 +110,6 @@ The knowledge gained through these case studies has been disseminated to the wid
 
 [1] - [Munich Re (2018)](https://www.munichre.com/topics-online/en/2018/01/2017-year-in-figures)
 
-<br>
-
-<a id="solencyII"></a>
-
-[1] - [EC (2009) Directive 2009/138/EC The taking-up and pursuit of the business of Insurance and Reinsurance (Solvency II)](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32009L0138)
 
 
 

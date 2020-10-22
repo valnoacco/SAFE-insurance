@@ -7,7 +7,7 @@ output: html_document
 
 
 
-## Briefings
+## Briefings 
 
 <a ref="briefings"></a> 
 
@@ -44,9 +44,7 @@ You can download the SAFE toolbox in R, Python or Matlab from [here](https://www
 
 <br> <br>
  
-## Selected presentations
-
-<a ref="selected_presentations"></a> 
+## Selected presentations {#selected_presentations}
 
 
   - <a href="EGU2020_display_Noacco_et_al_13_04_20.pdf#" class="download" title="Download pdf JBA EGU"> Presentation </a> on **Improving the robustness of flood catastrophe models in insurance through academia-industry collaboration** at the European Geosciences Union General Assembly 2020
