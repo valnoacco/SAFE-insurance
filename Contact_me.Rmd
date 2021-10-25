@@ -12,7 +12,7 @@ knitr::include_graphics("foto_twitter.png")
 
 
 <center>
-<a href="NOACCO_CV_2020.pdf#" class="download" title="CV">Curriculum Vitae</a>	
+<a href="VALENTINA_NOACCO_CV_2021.pdf#" class="download" title="CV">Curriculum Vitae</a>	
 
 <br>
 
@@ -20,13 +20,6 @@ Hosting research group:
 
 [Water and Environmental Engineering at the University of Bristol](http://www.bristol.ac.uk/engineering/research/water/)
 
-<br>
-
-<center>
-_I'll be on maternity leave until the end of June 2021._
-
-_In the mean time you can contact my collaborators:
-[Francesca Pianosi](http://www.bristol.ac.uk/engineering/people/francesca-pianosi/overview.html) and [Thorsten Wagener](http://www.bristol.ac.uk/engineering/people/thorsten-wagener/index.html)._
 <br>
 
 
