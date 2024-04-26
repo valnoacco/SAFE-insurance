@@ -13,7 +13,7 @@
 
 <title>Material on GSA and the SAFE toolbox</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
@@ -32,7 +32,7 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/vembedr-0.1.4/css/vembedr.css" rel="stylesheet" />
+<link href="site_libs/vembedr-0.1.5/css/vembedr.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -63,6 +63,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -173,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -182,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -235,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -296,33 +297,57 @@ $(document).ready(function () {
 
 
 <p><br></p>
-<div id="global-sensitivity-analysis-gsa-material" class="section level2">
+<div id="global-sensitivity-analysis-gsa-material"
+class="section level2">
 <h2>Global Sensitivity Analysis (GSA) material</h2>
 <ul>
-<li><p><a href="Noacco_GSA_SAFE_intro_25_09_2020.pdf#" class="download" title="Download GSA and SAFE intro">Brief introductory presentation on GSA and the SAFE toolbox</a></p></li>
-<li><p><a href="https://www.sciencedirect.com/science/article/pii/S1364815216300287">A review of available methods and workflow for Sensitivity Analysis (open access paper)</a></p></li>
-<li><p><a href="https://doi.org/10.1016/j.mex.2019.09.033">Practical guide through the critical choices needed for Global Sensitivity Analysis (open access paper)</a></p></li>
-<li><p><a href="https://research-information.bris.ac.uk/ws/portalfiles/portal/189945689/Wagener_Pianosi_ESR_11.pdf">A systematic review to support scientific advancement and to inform policy-making in earth system modelling (open access paper)</a></p></li>
-<li><p><a href="GSA_Case_Studies.pdf#" class="download" title="Download examples of GSA-SAFE as PDF">Brief description of a range of GSA/SAFE applications</a></p></li>
-<li><p><a href="https://www.nat-hazards-earth-syst-sci.net/17/225/2017/nhess-17-225-2017-discussion.html">Paper on the issue of handling epistemic uncertainty due to climate change in landslide hazard modelling (open access paper)</a></p></li>
-<li><p><a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015WR018198">Paper on a GSA/SAFE application to a flood inundation model (open access paper)</a></p></li>
+<li><p><a href="Noacco_GSA_SAFE_intro_25_09_2020.pdf#" class="download" title="Download GSA and SAFE intro">Brief
+introductory presentation on GSA and the SAFE toolbox</a></p></li>
+<li><p><a
+href="https://www.sciencedirect.com/science/article/pii/S1364815216300287">A
+review of available methods and workflow for Sensitivity Analysis (open
+access paper)</a></p></li>
+<li><p><a href="https://doi.org/10.1016/j.mex.2019.09.033">Practical
+guide through the critical choices needed for Global Sensitivity
+Analysis (open access paper)</a></p></li>
+<li><p><a
+href="https://research-information.bris.ac.uk/ws/portalfiles/portal/189945689/Wagener_Pianosi_ESR_11.pdf">A
+systematic review to support scientific advancement and to inform
+policy-making in earth system modelling (open access paper)</a></p></li>
+<li><p><a href="GSA_Case_Studies.pdf#" class="download" title="Download examples of GSA-SAFE as PDF">Brief
+description of a range of GSA/SAFE applications</a></p></li>
+<li><p><a
+href="https://www.nat-hazards-earth-syst-sci.net/17/225/2017/nhess-17-225-2017-discussion.html">Paper
+on the issue of handling epistemic uncertainty due to climate change in
+landslide hazard modelling (open access paper)</a></p></li>
+<li><p><a
+href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015WR018198">Paper
+on a GSA/SAFE application to a flood inundation model (open access
+paper)</a></p></li>
 </ul>
 <p><br></p>
 </div>
-<div id="sensitivity-analysis-for-everybody-safe-toolbox" class="section level2">
+<div id="sensitivity-analysis-for-everybody-safe-toolbox"
+class="section level2">
 <h2>Sensitivity Analysis For Everybody (SAFE) toolbox</h2>
 <ul>
-<li><p><a href="https://www.safetoolbox.info/">Website to download SAFE</a></p></li>
-<li><p><a href="https://www.sciencedirect.com/science/article/pii/S1364815215001188">Introductory paper to SAFE (open access paper)</a></p></li>
-<li><p><a href="workflow_PAWN_ishigami_homma_to_share.html#" class="download" title="PAWN_IshigamiHomma">Workflow to guide in the application of the PAWN GSA method using the SAFE toolbox and to interpret the results</a></p></li>
+<li><p><a href="https://safetoolbox.github.io/">Website to download
+SAFE</a></p></li>
+<li><p><a
+href="https://www.sciencedirect.com/science/article/pii/S1364815215001188">Introductory
+paper to SAFE (open access paper)</a></p></li>
+<li><p><a href="workflow_PAWN_ishigami_homma_to_share.html#" class="download" title="PAWN_IshigamiHomma">Workflow
+to guide in the application of the PAWN GSA method using the SAFE
+toolbox and to interpret the results</a></p></li>
 </ul>
 <p><br> <br></p>
 </div>
-<div id="introductory-video-to-sensitivity-analysis" class="section level2">
+<div id="introductory-video-to-sensitivity-analysis"
+class="section level2">
 <h2>Introductory video to Sensitivity Analysis</h2>
 <div class="vembedr">
 <div>
-<iframe class="vimeo-embed" src="https://player.vimeo.com/video/467774754" width="533" height="300" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe class="vimeo-embed" src="https://player.vimeo.com/video/467774754" width="533" height="300" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-external="1"></iframe>
 </div>
 </div>
 </div>

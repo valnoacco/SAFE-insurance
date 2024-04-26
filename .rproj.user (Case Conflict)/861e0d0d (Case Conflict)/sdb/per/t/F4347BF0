@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Material on GSA and the SAFE toolbox\"\n---\n\n<br> \n\n## Global Sensitivity Analysis (GSA) material\n\n - <a href=\"GSA and SAFE introduction.pdf#\" class=\"download\" title=\"Download GSA and SAFE intro as PDF\">Brief introductory presentation on GSA and the SAFE toolbox</a>\t\t\n\n - [A review of available methods and workflow for Sensitivity Analysis (open access paper)](https://www.sciencedirect.com/science/article/pii/S1364815216300287)\n\n - <a href=\"GSA_Case_Studies.pdf#\" class=\"download\" title=\"Download examples of GSA-SAFE as PDF\">Brief description of a range of GSA/SAFE applications</a>\t\n \n - [Paper on the issue of handling epistemic uncertainty due to climate change in landslide hazard modelling](https://www.nat-hazards-earth-syst-sci.net/17/225/2017/nhess-17-225-2017-discussion.html)\n \n \n - [Paper on a GSA/SAFE application to a flood inundation model](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015WR018198)\n \n<br>  \n \n## Sensitivity Analysis For Everybody (SAFE) toolbox\n \n - [Website to download SAFE](https://www.safetoolbox.info/)\n\n- [Introductory paper to SAFE (open access paper)](https://www.sciencedirect.com/science/article/pii/S1364815215001188)\n\n",
+    "created" : 1537524155198.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "278566797",
+    "id" : "F4347BF0",
+    "lastKnownWriteTime" : 1538558310,
+    "last_content_update" : 1538558310,
+    "path" : "C:/Users/vn1197/Dropbox/SAFE_work/gsa-insurance/GSA-SAFE.Rmd",
+    "project_path" : "GSA-SAFE.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

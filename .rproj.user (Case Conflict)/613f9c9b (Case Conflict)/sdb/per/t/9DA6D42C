@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Valentina Noacco\"\n---\n\n```{r pressure, echo=FALSE, fig.cap=\"\", out.width = '25%', fig.align=\"center\"}\nknitr::include_graphics(\"Noacco.jpg\")\n```\n\n<center>\n[<i class=\"fa fa-envelope-o\"></i>](mailto:valentina.noacco@bristol.ac.uk) \\ \\ \\ \\ [<i class=\"fa fa-institution\"></i>](http://www.bristol.ac.uk/engineering/people/valentina-noacco/overview.html) \\ \\ \\ [<i class=\"fa fa-graduation-cap\"></i>](https://scholar.google.co.uk/citations?user=6RfiljEAAAAJ&hl=en) \\ \\ \\ [<i class=\"fa fa-twitter\"></i>](https://twitter.com/valentinanoacco)\n</center>\n",
+    "created" : 1528148516762.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3079586648",
+    "id" : "9DA6D42C",
+    "lastKnownWriteTime" : 1528151711,
+    "last_content_update" : 1528151712001,
+    "path" : "~/Desktop/All/Dropbox/Persons/Vale/gsa-insurance/Contact_me.Rmd",
+    "project_path" : "Contact_me.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

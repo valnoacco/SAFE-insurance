@@ -1,0 +1,15 @@
+
+boxplot1(mu = mvd, prnam = x_labels) + ylab("mvd") 
+
+library(cowplot)
+
+p1 <- boxplot1(mu = Si, prnam = x_labels) + ggtitle("Si")
+p2 <- boxplot1(mu = STi, , prnam = x_labels) + ggtitle("STi")
+
+plot_grid(p1, p2, nrow = 2)
+
+--------
+  
+dev.new()
+RSA_plot_thres(X, idxb, prnam = x_labels, threshold = threshold, str_legend =c("behav", "non-behav")) + # add legend
+  scale_color_manual(values=c("blue","red"))

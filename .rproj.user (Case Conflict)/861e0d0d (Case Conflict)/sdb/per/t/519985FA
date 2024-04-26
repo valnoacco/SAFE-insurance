@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Transferring Sensitivity Analysis to the (Re)Insurance Sector\"\n---\n\n<br>\n\n```{r pressure, echo=FALSE, fig.cap=\"\", out.width = '80%', fig.align=\"center\"}\nknitr::include_graphics(\"logo_website.png\")\n```\n\n## Main objective of this fellowship\n\n\nThe main aim of the project is to transfer state-of-the-art Global Sensitivity Analysis (GSA) methods, tools and knowledge to the (re)insurance industry and to tailor them in such a way as to facilitate their uptake in the sector. The project will enable the (re)insurance industry to more efficiently capture the uncertainties and sensitivities embedded in their mathematical models, with structured approaches to validate these models and to test the impact of assumptions on model predictions. By better capturing uncertainty, decision-making will be more robust, as the chance of unexpected surprises is reduced.\n\n<br> \n\n## How I see my role as NERC Knowledge Exchange (KE) Fellow\n \nMethods and tools to adequately capture uncertainty in mathematical models are already available in academia, but tailored tools, workflows and case studies (close to the area of expertise of model users) are needed to demonstrate GSA benefits and to accelerate its uptake in industry. To overcome the so-called “valley of death” [1] (gap between research development and uptake by industry) it is needed to:\n\n - Create common language between academia and industry.\n - Identify needs of the insurance sector; what methods and tools they already use.\n - Identify how they learn about new research and methods; how they adopt them.\n - Identify barriers preventing the uptake of new methods and tools.\n - Identify “champions”, “sponsors” and “gatekeepers” [1].\n - Understand insurance model workflows; make them explicit.\n - Benefits of using GSA need to be communicated clearly.\n \n<br> \n \n## Dr Valentina Noacco\n\nValentina received her MSc in Water and Environmental Management in 2012 and her PhD in Civil Engineering in 2017 (“Investigation of long-term drivers and controls on fluvial dissolved organic carbon and nitrate in the UK”) from the University of Bristol. In 2017 she held a 7-month research project at the University of Bristol on Applied Sensitivity Analysis. Since November 2017 she holds a 3-year KE Fellowship.\n\n<br> \n\n<img src=\"UoB_logo.jpg\" alt=\"drawing\" style=\"width:200px;\"/> \\ \\ \\ \\ \\ \\ \\ \\ \\   <img src=\"nerc_logo.png\" alt=\"drawing\" style=\"width:100px;\"/> \n\n<br>\n<br>\n\n[1] - [The Valley of Death as Context for Role Theory in Product Innovation](https://doi.org/10.1111/j.1540-5885.2010.00724.x) \n",
+    "created" : 1531403765035.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "961718602",
+    "id" : "519985FA",
+    "lastKnownWriteTime" : 1543575561,
+    "last_content_update" : 1543575561202,
+    "path" : "C:/Users/vn1197/Dropbox/SAFE_work/gsa-insurance/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "name: \"GSA-insurance\"                                # CHANGE HERE \noutput_dir: \".\"\nnavbar:\n  title: \"GSA-insurance\"                             # CHANGE HERE \n  type: inverse\n  left:\n    - text: \"Home\"\n      icon: fa-home\n      href: index.html\n    - text: \"Project\"\n      icon: fa-cubes \n      href: Project.html\n    - text: \"GSA-SAFE\"\n      icon: fa-cogs\n      href: GSA-SAFE.html\n    #- text: \"Blog\"\n     # icon: fa-rss\n     # href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES\n    - text: \"News\"\n      icon: fa-newspaper-o\n      href: news.html  # CHANGE HERE OR DELETE ALL 3 LINES\n    - text: \"Outputs\"\n      icon: fa-file-pdf-o\n      href: Outputs.html  # CHANGE HERE OR DELETE ALL 3 LINES \n  right:\n    - text: \"Contact me\"\n      icon: fa-envelope-o\n      href: Contact_me.html   # CHANGE HERE \n    - text: \"GitHub\"\n      icon: fa-github\n      href: https://github.com/valnoacco       # CHANGE HERE \noutput:\n  html_document:\n    theme: cosmo\n    highlight: textmate",
+    "created" : 1531403739943.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "153688788",
+    "id" : "FF62A326",
+    "lastKnownWriteTime" : 1528388008,
+    "last_content_update" : 1528388008,
+    "path" : "C:/Users/vn1197/Dropbox/SAFE_work/gsa-insurance/_site.yml",
+    "project_path" : "_site.yml",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}

@@ -1,0 +1,48 @@
+---
+title: "Outputs"
+---
+
+<br> 
+
+These are some of the outputs of my KE Fellowship:
+
+<br> 
+
+## Presentations
+
+ - <a href="VNoacco_GSA_pricing.pdf#" class="download" title="GSA_pricing"> Presentation </a> at Bristol Actuarial Society on "How can sensitivity analysis help the insurance industry make more robust decisions based on pricing models?" in June 2019
+ 
+ - <a href="GSA_SAFE_presentation_OASIS_VNoacco.pdf#" class="download" title="GSA_JBA_flood"> Presentation </a> on "How SAFE is your model? Sensitivity Analysis in flood catastrophe modelling" at OASIS Conference 2019
+
+  - <a href="Poster_VNoacco_EGU_2019.pdf#" class="download" title="Download EGU poster as PDF"> Poster </a> at European Geosciences  Union General Assembly 2019
+  
+ - <a href="Poster_VNoacco_EGU_2018.pdf#" class="download" title="Download EGU poster as PDF"> Poster </a>	 at European Geosciences Union General Assembly 2018
+  
+ - <a href="Poster_AGU2017_VNOACCO_07_12_2017_final.pdf#" class="download" title="Download AGU poster as PDF"> Poster </a>	at American Geophysical Union Fall Meeting Conference 2017
+ 
+<br> 
+
+## Training material
+
+ - <a href="workflow_GSA_actuarial_example.pdf#" class="download" title="Download pdf Rmarkdown"> Workflow </a> to guide in the application and interpretation of GSA to pricing models in R or Excel (This workflow is published with Rmarkdown, you can download the R version of SAFE used from here: https://www.safetoolbox.info/register-for-download/)
+ 
+ - <a href="Results_anonym_500samples.csv#" class="download" title="Download excel data"> Mock data used
+ 
+ <br>
+
+ - <a href="workflow_GSA_GlobalFloodModel.html#" class="download" title="Download html GSA JBA"> Workflow </a> to guide in the application and interpretation of GSA to a CAT model (JBA's Global Flood Model) (This workflow is produced with RMarkdown, you can download the SAFE toolbox (in R, Python or Matlab) from here: https://www.safetoolbox.info/register-for-download/) 
+
+ 
+[comment]: <> (## Research papers)
+
+
+   
+[comment]: <> (## Practitioners papers)
+  
+
+
+[comment]: <> (## Reports)
+
+
+
+

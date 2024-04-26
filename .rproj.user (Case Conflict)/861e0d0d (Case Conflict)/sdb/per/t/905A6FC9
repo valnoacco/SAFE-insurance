@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Outputs\"\n---\n\n<br> \n\nThese are some of the outputs of my KE Fellowship:\n\n<br> \n\n## Presentations\n\n - <a href=\"VNoacco_GSA_pricing_BAS.pdf#\" class=\"download\" title=\"GSA_pricing\"> Presentation </a> at Bristol Actuarial Society on \"How can sensitivity analysis help the insurance industry make more robust decisions based on pricing models?\" in June 2019\n \n - <a href=\"Noacco_OASIS_2019.pdf#\" class=\"download\" title=\"GSA_JBA_flood\"> Presentation </a> on \"How SAFE is your model? Sensitivity Analysis in flood catastrophe modelling\" at OASIS Conference 2019\n\n  - <a href=\"Poster_VNoacco_EGU_2019.pdf#\" class=\"download\" title=\"Download EGU poster as PDF\"> Poster </a> at European Geosciences  Union General Assembly 2019\n  \n - <a href=\"Poster_VNoacco_EGU_2018.pdf#\" class=\"download\" title=\"Download EGU poster as PDF\"> Poster </a>\t at European Geosciences Union General Assembly 2018\n  \n - <a href=\"Poster_AGU2017_VNOACCO_07_12_2017_final.pdf#\" class=\"download\" title=\"Download AGU poster as PDF\"> Poster </a>\tat American Geophysical Union Fall Meeting Conference 2017\n \n<br> \n\n## Training material\n\n - <a href=\"workflow_GSA_actuarial_example.pdf#\" class=\"download\" title=\"Download pdf Rmarkdown\"> Workflow </a> to guide in the application and interpretation of GSA for pricing models in R or Excel (This workflow is published with Rmarkdown, you can download the R version of SAFE used from here: https://www.safetoolbox.info/register-for-download/)\n \n \n - <a href=\"Results_anonym_500samples.csv#\" class=\"download\" title=\"Download excel data\"> Mock data used\n \n[comment]: <> (## Research papers)\n\n\n   \n[comment]: <> (## Practitioners papers)\n  \n\n\n[comment]: <> (## Reports)\n\n\n\n\n",
+    "created" : 1531403816937.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3421828255",
+    "id" : "905A6FC9",
+    "lastKnownWriteTime" : 1561573207,
+    "last_content_update" : 1561573207684,
+    "path" : "C:/Users/vn1197/Dropbox/SAFE_work/gsa-insurance/Outputs.Rmd",
+    "project_path" : "Outputs.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

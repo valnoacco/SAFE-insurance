@@ -27,7 +27,7 @@ output: html_document
  
 ## Sensitivity Analysis For Everybody (SAFE) toolbox
  
- - [Website to download SAFE](https://www.safetoolbox.info/)
+ - [Website to download SAFE](https://safetoolbox.github.io/)
 
 - [Introductory paper to SAFE (open access paper)](https://www.sciencedirect.com/science/article/pii/S1364815215001188)
 

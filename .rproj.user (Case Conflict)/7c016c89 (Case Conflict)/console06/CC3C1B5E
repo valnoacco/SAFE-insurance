@@ -1,0 +1,94 @@
+[0m[0K]0;:/c/Users/valen/Dropbox/SAFE_work/gsa-insurance[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$ ########################################################[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$ # Written by Laura Dawkins (lauradawkins@hotmail.co.uk)[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ ########################################################[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K[1A[?25h[?25l
+
+$[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ empiricalcdf <- function(x,xi) {[0K
+bash: syntax error near unexpected token `('[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ stopifnot(is.numeric(x),is.numeric(xi))[0K
+bash: syntax error near unexpected token `is.numeric'[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ N <- length(x)[0K
+bash: syntax error near unexpected token `('[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$ x <- sort(x)[0K
+bash: syntax error near unexpected token `('[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$ F <- seq(1:N)/N[0K
+bash: syntax error near unexpected token `('[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ iu <- which(!duplicated(x,fromLast=TRUE))[0K
+bash: !duplicated: event not found[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$ F <- F[iu][0K
+bash: -: No such file or directory[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$ N <- length(F)[0K
+bash: syntax error near unexpected token `('[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$ x <- x[iu][0K
+[0K[?25hbash: -: No such file or directory[0K[?25l
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$ Fi <- rep(1,times=length(xi))[0K
+bash: syntax error near unexpected token `('[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ for(j in N:1)[0K
+bash: syntax error near unexpected token `('[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ Fi[which(xi <= x[j])] <- F[j][0K
+bash: -: No such file or directory[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ Fi[which(xi < x[1])] <- 0[0K
+bash: -: No such file or directory[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$ return(Fi)[0K
+bash: syntax error near unexpected token `Fi'[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K[1G[?25h[?25l
+$ }[0K
+bash: syntax error near unexpected token `}'[0K
+[0K[?25h[?25l
+[0;32mvalen@DESKTOP-05MJ5F0 [0;35m [0;33m~/Dropbox/SAFE_work/gsa-insurance[0;36m (master)[0m[0K
+$[0K[3G[?25h
