@@ -44,7 +44,7 @@ We also developed a [case study](https://safe-insurance.uk/Outputs.html#briefing
 <br><br>
 
 _Distribution of losses by return period (RP) shows increased uncertainty with higher RP (JBA case study)._
-<img src="JBA_EP_curve.png" alt="drawing" style="width:400px;"/> 
+<img src="JBA_EP_curve.png" alt="JBA_EP_curve" style="width:400px;"/> 
 
 </div>
 </div>
@@ -82,8 +82,8 @@ The knowledge gained through these case studies has been disseminated to the wid
 <br>
 
 ### Academic collaborators:
-- [Francesca Pianosi](http://www.bris.ac.uk/engineering/people/francesca-pianosi/index.html)
-- [Thorsten Wagener](http://www.bristol.ac.uk/engineering/people/thorsten-wagener/)
+- [Francesca Pianosi](https://www.bristol.ac.uk/people/person/Francesca-Pianosi-c3c94872-5922-4832-b269-109a473b568e/)
+- [Thorsten Wagener](https://www.uni-potsdam.de/de/umwelt/institut/alle-mitarbeiterinnen/wagener-thorsten)
 
 <br>
 
@@ -98,7 +98,7 @@ The knowledge gained through these case studies has been disseminated to the wid
 
 <br>
 
-<img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/> \ \ \ \ \ \ \ \ \   <img src="oasis_logo.png" alt="drawing" style="width:240px;"/>  \ \ \ \ \ \ \ \ \  <img src="JBA_logo.png" alt="drawing" style="width:180px;"/>
+<img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/> \ \ \ \ \ \ \ \ \   <img src="oasis_logo.png" alt="drawing" style="width:240px;"/>  \ \ \ \ \ \ \ \ \  <img src="jba_logo.png" alt="JBA_logo" style="width:180px;"/>
 
 
 

@@ -13,7 +13,7 @@
 
 <title>Project Information</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -294,40 +295,91 @@ $(document).ready(function () {
 </div>
 
 
-<p><img src="Project_files/figure-html/plot_quotes-1.png" /><!-- --></p>
+<p><img src="Project_files/figure-html/plot_quotes-1.png" width="850" /></p>
 <p><br></p>
-<div id="background-information-about-the-project" class="section level2">
+<div id="background-information-about-the-project"
+class="section level2">
 <h2>Background Information about the Project</h2>
-<p>Insurance companies provide insurance against a wide range of threats, such as natural hazards. Losses from natural disasters are increasing globally (in 2017 they were estimated to be USD 340 billion) <a href="#munichre_ref">1</a>. To monitor risk and support investment decisions, insurance companies use mathematical models to predict losses from these threats, to help calculate fair and robust risk premiums, and to ensure appropriate capital allocation. To accurately quantify risk and achieve a robust decision-making process, uncertainties in the mathematical models that underpin decisions need to be efficiently captured. The complexity of the models used, together with their often proprietary nature, makes a comprehensive, transparent and easily communicable quantification of the uncertainties very difficult. The use of Sensitivity Analysis to test mathematical models in a structured way facilitates the re-insurance to form a view of risk which takes into account the uncertainties and assumptions in the models.</p>
+<p>Insurance companies provide insurance against a wide range of
+threats, such as natural hazards. Losses from natural disasters are
+increasing globally (in 2017 they were estimated to be USD 340 billion)
+<a href="#munichre_ref">1</a>. To monitor risk and support investment
+decisions, insurance companies use mathematical models to predict losses
+from these threats, to help calculate fair and robust risk premiums, and
+to ensure appropriate capital allocation. To accurately quantify risk
+and achieve a robust decision-making process, uncertainties in the
+mathematical models that underpin decisions need to be efficiently
+captured. The complexity of the models used, together with their often
+proprietary nature, makes a comprehensive, transparent and easily
+communicable quantification of the uncertainties very difficult. The use
+of Sensitivity Analysis to test mathematical models in a structured way
+facilitates the re-insurance to form a view of risk which takes into
+account the uncertainties and assumptions in the models.</p>
 <p><br></p>
 </div>
 <div id="summary-of-what-has-been-achieved" class="section level2">
 <h2>Summary of what has been achieved</h2>
-<p>We developed several case studies with re-insurance companies and model vendors, which demonstrate the benefit of using Global Sensitivity Analysis (GSA) to help the catastrophe model building process and forming their view of risk.</p>
-<p>In the specific, a <a href="VNoacco_GSA_pricing.pdf#" class="download" title="GSA_pricing"> case study </a> with the <strong>actuarial pricing team at AXA XL</strong> shows how increased efficiency of their model validation process can be reached, by highlighting the most influential assumptions that deserve extra attention when reviewing the model. The case study also allows to better communicate the underlying model uncertainty to underwriters and to enhance the credibility of the results.</p>
+<p>We developed several case studies with re-insurance companies and
+model vendors, which demonstrate the benefit of using Global Sensitivity
+Analysis (GSA) to help the catastrophe model building process and
+forming their view of risk.</p>
+<p>In the specific, a
+<a href="VNoacco_GSA_pricing.pdf#" class="download" title="GSA_pricing">
+case study </a> with the <strong>actuarial pricing team at AXA
+XL</strong> shows how increased efficiency of their model validation
+process can be reached, by highlighting the most influential assumptions
+that deserve extra attention when reviewing the model. The case study
+also allows to better communicate the underlying model uncertainty to
+underwriters and to enhance the credibility of the results.</p>
 <div class="row">
 <div class="col-md-5">
 <p><br><br></p>
-<p>We also developed a <a href="https://safe-insurance.uk/Outputs.html#briefings">case study</a> with <strong>JBA Risk Management</strong> on their Global Flood Model. By varying model inputs that are not normally varied in traditional cat models, we achieved an increased understanding of the model beyond its default set up. Moreover, the uncertainty of the losses at different return periods in the Exceedance-Probability curve is visualised, an insight not usually available for model users, but which allows to adequately communicate uncertainties to decision-makers.</p>
+<p>We also developed a <a
+href="https://safe-insurance.uk/Outputs.html#briefings">case study</a>
+with <strong>JBA Risk Management</strong> on their Global Flood Model.
+By varying model inputs that are not normally varied in traditional cat
+models, we achieved an increased understanding of the model beyond its
+default set up. Moreover, the uncertainty of the losses at different
+return periods in the Exceedance-Probability curve is visualised, an
+insight not usually available for model users, but which allows to
+adequately communicate uncertainties to decision-makers.</p>
 </div>
 <div class="col-md-6">
 <p><br><br></p>
-<p><em>Distribution of losses by return period (RP) shows increased uncertainty with higher RP (JBA case study).</em> <img src="JBA_EP_curve.png" alt="drawing" style="width:400px;"/></p>
+<p><em>Distribution of losses by return period (RP) shows increased
+uncertainty with higher RP (JBA case study).</em>
+<img src="JBA_EP_curve.png" alt="JBA_EP_curve" style="width:400px;"/></p>
 </div>
 </div>
 <p><br></p>
 <div class="row">
 <div class="col-md-5">
 <p><br><br></p>
-<p>Finally, the <a href="https://safe-insurance.uk/Outputs.html#briefings">case study</a> with <strong>AXA XL on a third-party cat model</strong> empowers model users to explore the model uncertainties on which they have control of, as proprietary models have limited components that can be modified. In turn, by exploring the impact of exposure data and the spatial resolution on the model losses we could prioritise the investments on better quality data that would reduce the losses uncertainty the most.</p>
+<p>Finally, the <a
+href="https://safe-insurance.uk/Outputs.html#briefings">case study</a>
+with <strong>AXA XL on a third-party cat model</strong> empowers model
+users to explore the model uncertainties on which they have control of,
+as proprietary models have limited components that can be modified. In
+turn, by exploring the impact of exposure data and the spatial
+resolution on the model losses we could prioritise the investments on
+better quality data that would reduce the losses uncertainty the
+most.</p>
 </div>
 <div class="col-md-6">
 <p><br><br></p>
-<p><em>Construction type is the most influential input factor among the primary modifiers investigated (AXA XL case study)</em> <img src="AXA_XL_Si.png" alt="drawing" style="width:500px;"/></p>
+<p><em>Construction type is the most influential input factor among the
+primary modifiers investigated (AXA XL case study)</em>
+<img src="AXA_XL_Si.png" alt="drawing" style="width:500px;"/></p>
 </div>
 </div>
 <p><br></p>
-<p>The knowledge gained through these case studies has been disseminated to the wider re/insurance sector through <a href="https://safe-insurance.uk/Outputs.html#selected_presentations">presentations and workshops</a> at conferences, both academic, and industry-specific and with <a href="https://safe-insurance.uk/Outputs.html#training_material">tutorials</a> at four major re/insurance companies.</p>
+<p>The knowledge gained through these case studies has been disseminated
+to the wider re/insurance sector through <a
+href="https://safe-insurance.uk/Outputs.html#selected_presentations">presentations
+and workshops</a> at conferences, both academic, and industry-specific
+and with <a
+href="https://safe-insurance.uk/Outputs.html#training_material">tutorials</a>
+at four major re/insurance companies.</p>
 <p><br></p>
 <p><br></p>
 </div>
@@ -337,8 +389,12 @@ $(document).ready(function () {
 <div id="academic-collaborators" class="section level3">
 <h3>Academic collaborators:</h3>
 <ul>
-<li><a href="http://www.bris.ac.uk/engineering/people/francesca-pianosi/index.html">Francesca Pianosi</a></li>
-<li><a href="http://www.bristol.ac.uk/engineering/people/thorsten-wagener/">Thorsten Wagener</a></li>
+<li><a
+href="https://www.bristol.ac.uk/people/person/Francesca-Pianosi-c3c94872-5922-4832-b269-109a473b568e/">Francesca
+Pianosi</a></li>
+<li><a
+href="https://www.uni-potsdam.de/de/umwelt/institut/alle-mitarbeiterinnen/wagener-thorsten">Thorsten
+Wagener</a></li>
 </ul>
 <p><br></p>
 </div>
@@ -346,7 +402,8 @@ $(document).ready(function () {
 <h3>Industry partners:</h3>
 <ul>
 <li><a href="https://axaxl.com/">AXA XL</a></li>
-<li><a href="https://oasislmf.org/">OASIS Loss Modelling Framework</a></li>
+<li><a href="https://oasislmf.org/">OASIS Loss Modelling
+Framework</a></li>
 </ul>
 <p><br></p>
 </div>
@@ -356,10 +413,15 @@ $(document).ready(function () {
 <li><a href="https://www.jbarisk.com/">JBA Risk Management</a></li>
 </ul>
 <p><br></p>
-<p><img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/>           <img src="oasis_logo.png" alt="drawing" style="width:240px;"/>           <img src="JBA_logo.png" alt="drawing" style="width:180px;"/></p>
+<p><img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/>
+          <img src="oasis_logo.png" alt="drawing" style="width:240px;"/>
+         
+<img src="jba_logo.png" alt="JBA_logo" style="width:180px;"/></p>
 <p><br> <br> <br></p>
 <p><a id="munichre_ref"></a></p>
-<p>[1] - <a href="https://www.munichre.com/topics-online/en/2018/01/2017-year-in-figures">Munich Re (2018)</a></p>
+<p>[1] - <a
+href="https://www.munichre.com/topics-online/en/2018/01/2017-year-in-figures">Munich
+Re (2018)</a></p>
 </div>
 </div>
 

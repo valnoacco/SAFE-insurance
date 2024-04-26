@@ -13,7 +13,7 @@
 
 <title>Events I have attended</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -296,25 +297,67 @@ $(document).ready(function () {
 
 <p><br></p>
 <ul>
-<li><p>3rd-8th May 2020 I’ve attended <a href="https://egu2020.eu/">EGU 2020 Sharing Geoscience Online</a> and gave presentations on:</p>
+<li><p>3rd-8th May 2020 I’ve attended <a href="https://egu2020.eu/">EGU
+2020 Sharing Geoscience Online</a> and gave presentations on:</p>
 <ul>
-<li><a href="https://meetingorganizer.copernicus.org/EGU2020/EGU2020-10037.html">Improving the robustness of flood catastrophe models in insurance through academia-industry collaboration</a></li>
-<li><a href="https://meetingorganizer.copernicus.org/EGU2020/EGU2020-18831.html">Interactive Jupyter Notebooks for the visual analysis of critical choices in Global Sensitivity Analysis</a></li>
+<li><a
+href="https://meetingorganizer.copernicus.org/EGU2020/EGU2020-10037.html">Improving
+the robustness of flood catastrophe models in insurance through
+academia-industry collaboration</a></li>
+<li><a
+href="https://meetingorganizer.copernicus.org/EGU2020/EGU2020-18831.html">Interactive
+Jupyter Notebooks for the visual analysis of critical choices in Global
+Sensitivity Analysis</a></li>
 </ul></li>
-<li><p>10-12th March 2020 I’ve attended <a href="http://catrisklondon.aventedge.com/">CAT Risk Management &amp; Modelling Europe 2020</a></p></li>
-<li><p>25th June 2019 I’ve given a talk at the <a href="http://www.bristolactuaries.org/">Bristol Actuarial Society</a></p></li>
-<li><p>18-19th June 2019 I’ve co-delivered the workshop “How SAFE is your model? Sensitivity Analysis in flood catastrophe modelling” in collaboration with JBA Risk Management and HindlesWorld Risk Solutions at the <a href="https://oasislmf.org/application/files/6415/8074/3163/Agenda2019_OasisConference.pdf">Oasis Conference 2019 - The good, the bad and the ugly</a></p></li>
-<li><p>25th April 2019 I’ve co-organised a university-insurance sector <a href="http://www.bristol.ac.uk/engineering/events/2019/resilience.html">workshop</a> on strengthening resilience in the developing world</p></li>
-<li><p>7-12th April 2019 I’ve attended <a href="https://www.egu2019.eu/">EGU General Assembly 2019</a> and presented a poster on: “Transferring expertise on Global Sensitivity Analysis to (re)insurance practitioners using workflows”</p></li>
-<li><p>13-14th March 2019 I’ve attended CAT Risk Management &amp; Modelling Europe 2019</p></li>
-<li><p>13-14th September 2018 I’ve attended the <a href="https://oasislmf.org">Oasis LMF</a> Conference - The good, the bad and the ugly on current state, challenges and future directions of catastrophe modelling and the (re)insurance industry</p></li>
-<li><p>11-14th June 2018 I’ve attended <a href="http://blogs.exeter.ac.uk/models2decisions/events/m2d-2018-annual-conference/">Models2Decisions</a> conference on decision making under uncertainty and presented a poster on: “Overcoming the “valley of death” – Transferring tools and expertise on sensitivity analysis to the (re)insurance sector”</p></li>
-<li><p>27-28th March 2018 I’ve attended <a href="http://ukadr.org/conference2018.html">UK Alliance for Disaster Research Conference</a> and presented a poster on: “Overcoming the “valley of death” – Transferring tools and expertise on sensitivity analysis to the (re)insurance sector”</p></li>
-<li><p>8-13th April 2018 I’ve attended <a href="https://egu2018.eu/">EGU General Assembly 2018</a> and presented a poster on: “Overcoming the “valley of death” – Transferring tools and expertise on sensitivity analysis to the (re)insurance sector”</p></li>
-<li><p>11th-15th December 2017 I’ve attended the American Geophysical Union Fall Meeting Conference 2017 and presented a poster on: “How can sensitivity analysis improve the robustness of mathematical models utilized by the re/insurance industry?”</p></li>
+<li><p>10-12th March 2020 I’ve attended <a
+href="http://catrisklondon.aventedge.com/">CAT Risk Management &amp;
+Modelling Europe 2020</a></p></li>
+<li><p>25th June 2019 I’ve given a talk at the <a
+href="http://www.bristolactuaries.org/">Bristol Actuarial
+Society</a></p></li>
+<li><p>18-19th June 2019 I’ve co-delivered the workshop “How SAFE is
+your model? Sensitivity Analysis in flood catastrophe modelling” in
+collaboration with JBA Risk Management and HindlesWorld Risk Solutions
+at the <a
+href="https://oasislmf.org/application/files/6415/8074/3163/Agenda2019_OasisConference.pdf">Oasis
+Conference 2019 - The good, the bad and the ugly</a></p></li>
+<li><p>25th April 2019 I’ve co-organised a university-insurance sector
+<a
+href="http://www.bristol.ac.uk/engineering/events/2019/resilience.html">workshop</a>
+on strengthening resilience in the developing world</p></li>
+<li><p>7-12th April 2019 I’ve attended <a
+href="https://www.egu2019.eu/">EGU General Assembly 2019</a> and
+presented a poster on: “Transferring expertise on Global Sensitivity
+Analysis to (re)insurance practitioners using workflows”</p></li>
+<li><p>13-14th March 2019 I’ve attended CAT Risk Management &amp;
+Modelling Europe 2019</p></li>
+<li><p>13-14th September 2018 I’ve attended the <a
+href="https://oasislmf.org">Oasis LMF</a> Conference - The good, the bad
+and the ugly on current state, challenges and future directions of
+catastrophe modelling and the (re)insurance industry</p></li>
+<li><p>11-14th June 2018 I’ve attended <a
+href="http://blogs.exeter.ac.uk/models2decisions/events/m2d-2018-annual-conference/">Models2Decisions</a>
+conference on decision making under uncertainty and presented a poster
+on: “Overcoming the “valley of death” – Transferring tools and expertise
+on sensitivity analysis to the (re)insurance sector”</p></li>
+<li><p>27-28th March 2018 I’ve attended <a
+href="http://ukadr.org/conference2018.html">UK Alliance for Disaster
+Research Conference</a> and presented a poster on: “Overcoming the
+“valley of death” – Transferring tools and expertise on sensitivity
+analysis to the (re)insurance sector”</p></li>
+<li><p>8-13th April 2018 I’ve attended <a href="https://egu2018.eu/">EGU
+General Assembly 2018</a> and presented a poster on: “Overcoming the
+“valley of death” – Transferring tools and expertise on sensitivity
+analysis to the (re)insurance sector”</p></li>
+<li><p>11th-15th December 2017 I’ve attended the American Geophysical
+Union Fall Meeting Conference 2017 and presented a poster on: “How can
+sensitivity analysis improve the robustness of mathematical models
+utilized by the re/insurance industry?”</p></li>
 </ul>
 <p><br></p>
-<p><em>For a copy of the presentations go to the <a href="https://safe-insurance.uk/Outputs.html#selected_presentations">Selected presentations</a> section.</em></p>
+<p><em>For a copy of the presentations go to the <a
+href="https://safe-insurance.uk/Outputs.html#selected_presentations">Selected
+presentations</a> section.</em></p>
 
 
 

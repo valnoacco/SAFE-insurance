@@ -13,7 +13,7 @@ output: html_document
 - <a href="Fellowship_briefing_21_10_2020.pdf#" class="download" title="Download fellowship briefing"> Briefing </a> summarising the main outcomes of my fellowship
 
 - <a href="JBA_briefing.pdf#" class="download" title="Download JBA briefing"> Briefing </a> summarising the main findings of the collaboration with JBA Risk Management on: 
-<p>**Improving the consideration of uncertainty in a flood cat model**</p> \ \ \ \   <img src="JBA_logo.png" alt="drawing" style="width:180px;"/>
+<p>**Improving the consideration of uncertainty in a flood cat model**</p> \ \ \ \   <img src="jba_logo.png" alt="jba_logo" style="width:180px;"/>
     
 -  <a href="AXAXL_briefing.pdf#" class="download" title="Download AXA XL briefing"> Briefing </a> summarising the main findings of the collaboration with AXA XL on:
 <p>**Prioritising efforts to reduce uncertainty in a third-party cat model**  </p> \ \ \ \   <img src="axa_open_blue_rgb.jpg" alt="drawing" style="width:70px;"/>

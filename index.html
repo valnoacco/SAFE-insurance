@@ -13,7 +13,7 @@
 
 <title>Transferring Sensitivity Analysis to the Re-Insurance Sector</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -289,7 +290,8 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Transferring Sensitivity Analysis to the Re-Insurance Sector</h1>
+<h1 class="title toc-ignore">Transferring Sensitivity Analysis to the
+Re-Insurance Sector</h1>
 
 </div>
 
@@ -297,22 +299,48 @@ $(document).ready(function () {
 <p><br></p>
 <p><img src="logo_website.png" width="80%" style="display: block; margin: auto;" /></p>
 <p><br> <br></p>
-<p>Methods (e.g. <strong>Global Sensitivity Analysis</strong>) and tools (e.g. the <strong>SAFE toolbox</strong>) to adequately capture uncertainty in mathematical models are available in academia, but tailored workflows and case studies (close to the area of expertise of model users) are needed to demonstrate their benefits and to accelerate their uptake in industry.</p>
+<p>Methods (e.g. <strong>Global Sensitivity Analysis</strong>) and tools
+(e.g. the <strong>SAFE toolbox</strong>) to adequately capture
+uncertainty in mathematical models are available in academia, but
+tailored workflows and case studies (close to the area of expertise of
+model users) are needed to demonstrate their benefits and to accelerate
+their uptake in industry.</p>
 <p><br></p>
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <div class="blue">
-<p>The <strong>objective of my fellowship</strong> is to transfer methods, tools and expertise to improve the understanding and consideration of uncertainty in mathematical models used in the re-insurance industry. By better capturing uncertainty, we can achieve a more robust decision-making process, as the chance of unexpected surprises is reduced.</p>
+<p>The <strong>objective of my fellowship</strong> is to transfer
+methods, tools and expertise to improve the understanding and
+consideration of uncertainty in mathematical models used in the
+re-insurance industry. By better capturing uncertainty, we can achieve a
+more robust decision-making process, as the chance of unexpected
+surprises is reduced.</p>
 </div>
 <p><br></p>
-<div id="activities-ive-done-during-my-fellowship-include" class="section level2">
+<div id="activities-ive-done-during-my-fellowship-include"
+class="section level2">
 <h2>Activities I’ve done during my fellowship include:</h2>
-<p>In order to overcome the so-called “valley of death”<a href="#ref1">1</a> (the gap between research development and uptake by industry) I have:</p>
+<p>In order to overcome the so-called “valley of death”<a
+href="#ref1">1</a> (the gap between research development and uptake by
+industry) I have:</p>
 <ul>
-<li><p>developed <a href="https://safe-insurance.uk/Outputs.html#briefings">several case studies</a> with re-insurance companies and model vendors, which demonstrate the benefit of using Global Sensitivity Analysis (GSA) to help the catastrophe model building process and forming their view of risk.</p></li>
-<li><p>developed <a href="https://safe-insurance.uk/Outputs.html#training_material">training material</a> in the form of workflows (Rmarkdown or Jupyter Notebooks) which guide the user through the steps needed to apply GSA with the SAFE toolbox and to interpret the results, using as case studies models used in the re/insurance industry.</p></li>
-<li><p>disseminated the knowledge gained through these case studies to the wider re/insurance sector through <a href="https://safe-insurance.uk/Outputs.html#selected_presentations">presentations and workshops</a> at conferences.</p></li>
+<li><p>developed <a
+href="https://safe-insurance.uk/Outputs.html#briefings">several case
+studies</a> with re-insurance companies and model vendors, which
+demonstrate the benefit of using Global Sensitivity Analysis (GSA) to
+help the catastrophe model building process and forming their view of
+risk.</p></li>
+<li><p>developed <a
+href="https://safe-insurance.uk/Outputs.html#training_material">training
+material</a> in the form of workflows (Rmarkdown or Jupyter Notebooks)
+which guide the user through the steps needed to apply GSA with the SAFE
+toolbox and to interpret the results, using as case studies models used
+in the re/insurance industry.</p></li>
+<li><p>disseminated the knowledge gained through these case studies to
+the wider re/insurance sector through <a
+href="https://safe-insurance.uk/Outputs.html#selected_presentations">presentations
+and workshops</a> at conferences.</p></li>
 </ul>
 <p><br></p>
 <style>
@@ -320,15 +348,27 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <div id="legacy-statement" class="section level3 blue">
 <h3>Legacy statement</h3>
-<p>I hope that the work carried out during my fellowship has set the path for the re-insurance sector to increase ownership of the mathematical models in use, by gaining an improved understanding of where the uncertainties lie in their modelling process. This allows to prioritise efforts to reduce the major sources of uncertainty and increases the confidence in the model use, and in the business decisions that will follow.</p>
+<p>I hope that the work carried out during my fellowship has set the
+path for the re-insurance sector to increase ownership of the
+mathematical models in use, by gaining an improved understanding of
+where the uncertainties lie in their modelling process. This allows to
+prioritise efforts to reduce the major sources of uncertainty and
+increases the confidence in the model use, and in the business decisions
+that will follow.</p>
 </div>
 <p><br></p>
 <hr />
-<p><strong>If you are interested in bringing GSA into your current practice</strong>:</p>
+<p><strong>If you are interested in bringing GSA into your current
+practice</strong>:</p>
 <ul>
-<li><p>you can download the SAFE toolbox in R, Python or MATLAB from <a href="https://www.safetoolbox.info/register-for-download/">here</a>;</p></li>
-<li><p>you can use the workflows in the <a href="https://safe-insurance.uk/Outputs.html#training_material">training material</a> as a template to apply GSA to your case;</p></li>
-<li><p><a href="https://safe-insurance.uk/Contact_me.html">contact</a> the team to scope potential collaborations/arrange a workshop at your organisation.</p></li>
+<li><p>you can download the SAFE toolbox in R, Python or MATLAB from <a
+href="https://safetoolbox.github.io/">here</a>;</p></li>
+<li><p>you can use the workflows in the <a
+href="https://safe-insurance.uk/Outputs.html#training_material">training
+material</a> as a template to apply GSA to your case;</p></li>
+<li><p><a href="https://safe-insurance.uk/Contact_me.html">contact</a>
+the team to scope potential collaborations/arrange a workshop at your
+organisation.</p></li>
 </ul>
 <hr />
 <p><br></p>
@@ -336,14 +376,31 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </div>
 <div id="dr-valentina-noacco" class="section level2">
 <h2>Dr Valentina Noacco</h2>
-<p>Valentina received her MSc in Water and Environmental Management in 2012 and her PhD in Civil Engineering in 2017 (“Investigation of long-term drivers and controls on fluvial dissolved organic carbon and nitrate in the UK”) from the University of Bristol. In 2017 she held a 7-month research project at the University of Bristol on Applied Sensitivity Analysis. Since November 2017 she holds a Knowledge Exchange Fellowship.</p>
+<p>Dr Valentina Noacco holds a PhD in Water Quality Modelling from the
+University of Bristol. Following her PhD, she spent five years as a
+Senior Research Associate and Knowledge Exchange Fellow at the same
+university, where her work centred on transferring state-of-the-art
+methods, software tools, and expertise in uncertainty and sensitivity
+analysis to the re/insurance and catastrophe modelling industry.</p>
+<p>She is still an Honorary Research Fellow at the University of
+Bristol. Currently, she is the Chief Uncertainty Officer at Maximum
+Information, an independent risk intelligence provider dedicated to
+developing catastrophe risk analytic tools and launching collaborative
+projects aimed at improving our understanding of catastrophe and climate
+risk. In her current role, she oversees the innovation division of the
+venture.</p>
 <p><br></p>
-<p><img src="UoB_logo.jpg" alt="drawing" style="width:200px;"/>           <img src="nerc_logo.png" alt="drawing" style="width:100px;"/></p>
+<p><img src="UoB_logo.jpg" alt="drawing" style="width:200px;"/>
+         
+<img src="nerc_logo.png" alt="drawing" style="width:100px;"/></p>
 <p><br> <br></p>
-<p>This work has been funded by the UK Natural Environment Research Council (NERC) (November 2017 to September 2021):</p>
+<p>This work has been funded by the UK Natural Environment Research
+Council (NERC) (November 2017 to September 2021):</p>
 <p>KE Fellowship: NE/R003734/1.</p>
 <p><br></p>
-<p><a id="ref1"></a> 1 - <a href="https://doi.org/10.1111/j.1540-5885.2010.00724.x">The Valley of Death as Context for Role Theory in Product Innovation</a></p>
+<p><a id="ref1"></a> 1 - <a
+href="https://doi.org/10.1111/j.1540-5885.2010.00724.x">The Valley of
+Death as Context for Role Theory in Product Innovation</a></p>
 </div>
 
 

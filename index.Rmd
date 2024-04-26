@@ -58,7 +58,7 @@ I hope that the work carried out during my fellowship has set the path for the r
 
 **If you are interested in bringing GSA into your current practice**:
 
-- you can download the SAFE toolbox in R, Python or MATLAB from [here](https://www.safetoolbox.info/register-for-download/);
+- you can download the SAFE toolbox in R, Python or MATLAB from [here](https://safetoolbox.github.io/);
 
 - you can use the workflows in the [training material](https://safe-insurance.uk/Outputs.html#training_material) as a template to apply GSA to your case;
 
@@ -73,7 +73,9 @@ I hope that the work carried out during my fellowship has set the path for the r
  
 ## Dr Valentina Noacco
 
-Valentina received her MSc in Water and Environmental Management in 2012 and her PhD in Civil Engineering in 2017 (“Investigation of long-term drivers and controls on fluvial dissolved organic carbon and nitrate in the UK”) from the University of Bristol. In 2017 she held a 7-month research project at the University of Bristol on Applied Sensitivity Analysis. Since November 2017 she holds a Knowledge Exchange Fellowship.
+Dr Valentina Noacco holds a PhD in Water Quality Modelling from the University of Bristol. Following her PhD, she spent five years as a Senior Research Associate and Knowledge Exchange Fellow at the same university, where her work centred on transferring state-of-the-art methods, software tools, and expertise in uncertainty and sensitivity analysis to the re/insurance and catastrophe modelling industry.
+
+She is still an Honorary Research Fellow at the University of Bristol. Currently, she is the Chief Uncertainty Officer at Maximum Information, an independent risk intelligence provider dedicated to developing catastrophe risk analytic tools and launching collaborative projects aimed at improving our understanding of catastrophe and climate risk. In her current role, she oversees the innovation division of the venture.
 
 <br>
 
